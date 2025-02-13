@@ -310,20 +310,6 @@
     }
   },
   {
-    "id": "ecbd92ff-280a-41b9-aece-62a7b89461fa",
-    "data": {
-      "gender": "M",
-      "first name": "(Unnamed) Twin",
-      "last name": "",
-      "birthday": "(died after birth)",
-      "avatar": ""
-    },
-    "rels": {
-      "father": "359f3406-d931-42d1-853b-d63864490a7c",
-      "mother": "c07f7682-5d32-461f-85f3-ad60505ffe8d"
-    }
-  },
-  {
     "id": "9d4f1055-471b-4162-a7fa-37265838ea5c",
     "data": {
       "gender": "F",
