@@ -1128,10 +1128,80 @@
     "rels": {
       "father": "fareed-1",
       "mother": "sajid-1",
-      "spouses": [],
-      "children": []
+      "spouses": ["shahid-1"],
+      "children": ["atif-1", "ahsan-2", "nabeel-1", "sadia-1"]
     }
   },
+  {
+    "id": "shahid-1",
+    "data": {
+      "gender": "M",
+      "first name": "Shahid",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shehnaz-1"],
+      "children": ["atif-1", "ahsan-2", "nabeel-1", "sadia-1"]
+    }
+  },
+  {
+    "id": "atif-1",
+    "data": {
+      "gender": "M",
+      "first name": "Atif",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shahid-1",
+      "mother": "shehnaz-1"
+    }
+  },
+  {
+    "id": "ahsan-2",
+    "data": {
+      "gender": "M",
+      "first name": "Ahsan",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shahid-1",
+      "mother": "shehnaz-1"
+    }
+  },
+  {
+    "id": "nabeel-1",
+    "data": {
+      "gender": "M",
+      "first name": "Nabeel",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shahid-1",
+      "mother": "shehnaz-1"
+    }
+  },
+  {
+    "id": "sadia-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sadia",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shahid-1",
+      "mother": "shehnaz-1"
+    }
+  },  
   {
     "id": "rasheed-1",
     "data": {
