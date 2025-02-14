@@ -342,6 +342,8 @@
       "avatar": ""
     },
     "rels": {
+      "mother": "waseeqa-1",
+      "father": "baqir-ali-1",
       "spouses": ["farhana-2"],
       "children": ["wajeeha-2", "amina-2", "aqifa-2"]
     }
