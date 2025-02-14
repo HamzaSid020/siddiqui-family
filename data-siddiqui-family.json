@@ -230,8 +230,7 @@
       "children": [
         "a9dde1eb-ea4b-4c07-adcd-9d61d89e9c43",
         "025193a5-5146-4ff0-91d3-5ab0506d85df",
-        "52e9bc54-76eb-4073-a022-83e609cc9c93",
-        "ecbd92ff-280a-41b9-aece-62a7b89461fa"
+        "52e9bc54-76eb-4073-a022-83e609cc9c93"
       ]
     }
   },
@@ -249,8 +248,7 @@
       "children": [
         "a9dde1eb-ea4b-4c07-adcd-9d61d89e9c43",
         "025193a5-5146-4ff0-91d3-5ab0506d85df",
-        "52e9bc54-76eb-4073-a022-83e609cc9c93",
-        "ecbd92ff-280a-41b9-aece-62a7b89461fa"
+        "52e9bc54-76eb-4073-a022-83e609cc9c93"
       ]
     }
   },
@@ -294,20 +292,6 @@
       "gender": "M",
       "first name": "Iqbal",
       "last name": "Ahmed Siddiqui",
-      "birthday": "",
-      "avatar": ""
-    },
-    "rels": {
-      "father": "afzal-1",
-      "mother": "c07f7682-5d32-461f-85f3-ad60505ffe8d"
-    }
-  },
-  {
-    "id": "ecbd92ff-280a-41b9-aece-62a7b89461fa",
-    "data": {
-      "gender": "M",
-      "first name": "?",
-      "last name": "",
       "birthday": "",
       "avatar": ""
     },
