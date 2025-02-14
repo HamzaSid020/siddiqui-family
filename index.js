@@ -1,27 +1,39 @@
 async function fetchData() {
     const response = await fetch('data-siddiqui-family.json');
-    return await response.json();
+    const data = await response.json();
+    console.log("Fetched Data:", data);
+    return data;
 }
 
 async function createFamilyTree() {
     const data = await fetchData();
+    async function fetchData() {
+        const response = await fetch('data-siddiqui-family.json');
+        return await response.json();
+    }
 
-   function create(data) {
-      const f3Chart = f3.createChart('#FamilyChart', data)
-        .setTransitionTime(702)
-        .setCardXSpacing(250)
-        .setCardYSpacing(110)
-        .setOrientationHorizontal()
-        .setSingleParentEmptyCard(true, {label: 'N/A'})
-    
-      const f3Card = f3Chart.setCard(f3.CardHtml)
-        .setCardDisplay([["first name","last name"],["birthday"]])
-        .setCardDim({"width":195,"img_width":65,"img_height":65})
-        .setMiniTree(true)
-        .setStyle('imageRect')
-        .setOnHoverPathToMain()
+    async function createFamilyTree() {
+        const data = await fetchData();
 
-      f3Chart.updateTree({initial: true})
+        const f3Chart = f3.createChart('#FamilyChart', data)
+            .setTransitionTime(1000)
+            .setCardXSpacing(250)
+            .setCardYSpacing(150)
+            .setOrientationVertical()
+            .setSingleParentEmptyCard(true, { label: 'ADD' })
+
+        const f3Card = f3Chart.setCard(f3.CardHtml)
+            .setCardDisplay([["first name", "last name"], ["birthday"]])
+            .setCardDim({ "width": 215, "height": 75, "img_x": 7 })
+            .setMiniTree(true)
+            .setStyle('imageRect')
+            .setOnHoverPathToMain()
+
+        f3Chart.updateTree({ initial: true })
+    }
+
+    // Initialize the family tree
+    createFamilyTree();
 }
 
 // Initialize the family tree
