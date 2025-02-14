@@ -301,7 +301,7 @@
       "father": "fareed-1",
       "mother": "sajid-1",
       "spouses": ["baqir-ali-1"],
-      "children": ["mir-nasir-ali-1"]
+      "children": ["shahgufta-1","shahista-1","mir-nasir-ali-1","mir-qaisar-ali-1"]
     }
   },
   {
@@ -315,7 +315,125 @@
     },
     "rels": {
       "spouses": ["waseeqa-1"],
-      "children": ["mir-nasir-ali-1"]
+      "children": ["shahgufta-1","shahista-1","mir-nasir-ali-1","mir-qaisar-ali-1"]
+    }
+  },
+  {
+    "id": "mir-qaisar-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Qaisar Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-1",
+      "father": "baqir-ali-1",
+      "spouses": ["farhana-1"],
+      "children": ["wajeeha-1", "amina-1", "aqifa-1"]
+    }
+  },
+  {
+    "id": "shahgufta-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shahgufta",
+      "last name": "Warsi",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-1",
+      "father": "baqir-ali-1",
+      "spouses": ["irfan-1"],
+      "children": ["saqib-1", "maryam-2"]
+    }
+  },
+  {
+    "id": "irfan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Irfan",
+      "last name": "Warsi",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shahgufta-1"],
+      "children": ["saqib-1", "maryam-2"]
+    }
+  },
+  {
+    "id": "saqib-1",
+    "data": {
+      "gender": "M",
+      "first name": "Saqib",
+      "last name": "Irfan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "irfan-1",
+      "mother": "shahgufta-1"
+    }
+  },
+  {
+    "id": "maryam-2",
+    "data": {
+      "gender": "F",
+      "first name": "Maryam",
+      "last name": "Irfan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "irfan-1",
+      "mother": "shahgufta-1"
+    }
+  },
+  {
+    "id": "shahista-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shahista",
+      "last name": "Farheen",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-1",
+      "father": "baqir-ali-1",
+      "spouses": ["ibrahim-1"],
+      "children": ["usman-1"]
+    }
+  },
+  {
+    "id": "ibrahim-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ibrahim",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shahista-1"],
+      "children": ["usman-1"]
+    }
+  },
+  {
+    "id": "usman-1",
+    "data": {
+      "gender": "M",
+      "first name": "Usman",
+      "last name": "Ibrahim",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ibrahim-1",
+      "mother": "shahista-1"
     }
   },
   {
