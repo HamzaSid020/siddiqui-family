@@ -663,7 +663,36 @@
     "rels": {
       "mother": "uzma-1",
       "father": "azmat-1",
-      "spouses": []
+      "spouses": ["zafar-1"],
+      "children": ["esa-1"]
+    }
+  },
+  {
+    "id": "zafar-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zafar",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["sana-1"],
+      "children": ["esa-1"]
+    }
+  },
+  {
+    "id": "esa-1",
+    "data": {
+      "gender": "M",
+      "first name": "Esa",
+      "last name": "Zafar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sana-1",
+      "father": "zafar-1"
     }
   },
   {
@@ -678,7 +707,50 @@
     "rels": {
       "mother": "uzma-1",
       "father": "azmat-1",
-      "spouses": []
+      "spouses": ["taha-1"],
+      "children": ["zaidan-1", "sara-1"]
+    }
+  },
+  {
+    "id": "taha-1",
+    "data": {
+      "gender": "M",
+      "first name": "Taha",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["sameen-1"],
+      "children": ["zaidan-1", "sara-1"]
+    }
+  },
+  {
+    "id": "zaidan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zaidan",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sameen-1",
+      "father": "taha-1"
+    }
+  },
+  {
+    "id": "sara-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sara",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sameen-1",
+      "father": "taha-1"
     }
   },
   {
@@ -693,7 +765,36 @@
     "rels": {
       "mother": "uzma-1",
       "father": "azmat-1",
-      "spouses": []
+      "spouses": ["zaid-1"],
+      "children": ["yousuf-2"]
+    }
+  },
+  {
+    "id": "zaid-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zaid",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["sidra-1"],
+      "children": ["yousuf-2"]
+    }
+  },
+  {
+    "id": "yousuf-2",
+    "data": {
+      "gender": "M",
+      "first name": "Yousuf",
+      "last name": "Zaid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sidra-1",
+      "father": "zaid-1"
     }
   },
   {
@@ -751,9 +852,67 @@
     },
     "rels": {
       "father": "aamir-1",
-      "mother": "shabana-1"
+      "mother": "shabana-1",
+      "spouses": ["wardha-1"],
+      "children": ["abeeha-1", "jazim-1", "zavier-1"]
     }
   },
+  {
+    "id": "wardha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Wardha",
+      "last name": "Areeb",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["areeb-1"],
+      "children": ["abeeha-1", "jazim-1", "zavier-1"]
+    }
+  },
+  {
+    "id": "abeeha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Abeeha",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "areeb-1",
+      "mother": "wardha-1"
+    }
+  },
+  {
+    "id": "jazim-1",
+    "data": {
+      "gender": "M",
+      "first name": "Jazim",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "areeb-1",
+      "mother": "wardha-1"
+    }
+  },
+  {
+    "id": "zavier-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zavier",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "areeb-1",
+      "mother": "wardha-1"
+    }
+  },  
   {
     "id": "ateeb-1",
     "data": {
@@ -765,9 +924,39 @@
     },
     "rels": {
       "father": "aamir-1",
-      "mother": "shabana-1"
+      "mother": "shabana-1",
+      "spouses": ["iqra-1"],
+      "children": ["ayzel-1"]
     }
   },
+  {
+    "id": "iqra-1",
+    "data": {
+      "gender": "F",
+      "first name": "Iqra",
+      "last name": "Ateeb",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["ateeb-1"],
+      "children": ["ayzel-1"]
+    }
+  },
+  {
+    "id": "ayzel-1",
+    "data": {
+      "gender": "F",
+      "first name": "Ayzel",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ateeb-1",
+      "mother": "iqra-1"
+    }
+  },  
   {
     "id": "rimsha-1",
     "data": {
