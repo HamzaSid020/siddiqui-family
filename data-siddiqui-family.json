@@ -301,7 +301,7 @@
       "father": "fareed-1",
       "mother": "sajid-1",
       "spouses": ["baqir-ali-1"],
-      "children": ["shahgufta-1","shahista-1","mir-nasir-ali-1","mir-qaisar-ali-1"]
+      "children": ["mir-nasir-ali-1", "shahgufta-1", "shahista-1", "mir-qaisar-ali-1" ]
     }
   },
   {
@@ -315,7 +315,21 @@
     },
     "rels": {
       "spouses": ["waseeqa-1"],
-      "children": ["shahgufta-1","shahista-1","mir-nasir-ali-1","mir-qaisar-ali-1"]
+      "children": ["mir-nasir-ali-1", "shahgufta-1", "shahista-1", "mir-qaisar-ali-1"]
+    }
+  },
+  {
+    "id": "farhana-2",
+    "data": {
+      "gender": "F",
+      "first name": "Farhana",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-qaisar-ali-1"],
+      "children": ["wajeeha-2", "amina-2", "aqifa-2"]
     }
   },
   {
@@ -328,10 +342,50 @@
       "avatar": ""
     },
     "rels": {
-      "mother": "waseeqa-1",
-      "father": "baqir-ali-1",
-      "spouses": ["farhana-1"],
-      "children": ["wajeeha-1", "amina-1", "aqifa-1"]
+      "spouses": ["farhana-2"],
+      "children": ["wajeeha-2", "amina-2", "aqifa-2"]
+    }
+  },
+  {
+    "id": "wajeeha-2",
+    "data": {
+      "gender": "F",
+      "first name": "Wajeeha",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-2"
+    }
+  },
+  {
+    "id": "amina-2",
+    "data": {
+      "gender": "F",
+      "first name": "Amina",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-2"
+    }
+  },
+  {
+    "id": "aqifa-2",
+    "data": {
+      "gender": "F",
+      "first name": "Aqifa",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-2"
     }
   },
   {
