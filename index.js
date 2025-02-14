@@ -6,16 +6,16 @@ async function fetchData() {
 async function createFamilyTree() {
     const data = await fetchData();
 
-const f3Chart = f3.createChart('#FamilyChart', data)
-        .setTransitionTime(1000)
+ const f3Chart = f3.createChart('#FamilyChart', data)
+        .setTransitionTime(702)
         .setCardXSpacing(250)
-        .setCardYSpacing(150)
-        .setOrientationVertical()
+        .setCardYSpacing(110)
+        .setOrientationHorizontal()
         .setSingleParentEmptyCard(true, {label: 'ADD'})
     
       const f3Card = f3Chart.setCard(f3.CardHtml)
         .setCardDisplay([["first name","last name"],["birthday"]])
-        .setCardDim({"width":215,"height":75,"img_x":7})
+        .setCardDim({"width":195})
         .setMiniTree(true)
         .setStyle('imageRect')
         .setOnHoverPathToMain()
