@@ -179,22 +179,40 @@
       "avatar": ""
     },
     "rels": {
-      "children": ["shohaib-1", "afzal-1"],
+      "children": ["shohaib-1", "afzal-1", "rasheed-1", "arif-1"],
       "spouses": ["sajid-1"]
     }
   },
   {
-    "id": "sajid-1",
+    "id": "rasheed-1",
     "data": {
-      "gender": "F",
-      "first name": "Sajid ",
-      "last name": "Un Nisa",
+      "gender": "M",
+      "first name": "Rasheed",
+      "last name": "Ahmed Siddiqui",
       "birthday": "",
       "avatar": ""
     },
     "rels": {
-      "spouses": ["fareed-1"],
-      "children": ["afzal-1", "shohaib-1"]
+      "father": "fareed-1",
+      "spouses": [],
+      "children": [
+      ]
+    }
+  },
+  {
+    "id": "arif-1",
+    "data": {
+      "gender": "M",
+      "first name": "Arif",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "spouses": [],
+      "children": [
+      ]
     }
   },
   {
