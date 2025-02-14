@@ -180,7 +180,21 @@
     },
     "rels": {
       "children": ["shohaib-1", "afzal-1"],
-      "spouses": []
+      "spouses": ["sajid-1"]
+    }
+  },
+  {
+    "id": "sajid-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sajid ",
+      "last name": "Un Nisa",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["fareed-1"],
+      "children": ["afzal-1", "shohaib-1"]
     }
   },
   {
