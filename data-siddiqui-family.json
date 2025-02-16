@@ -54,8 +54,7 @@
     "rels": {
       "father": "0",
       "mother": "erum-1",
-      "spouses": ["9524fb58-5bb0-4e0e-a3b5-65391bc5c359"],
-      "children": ["7924ac1c-9042-48e0-8acd-59821b920624"]
+      "spouses": ["9524fb58-5bb0-4e0e-a3b5-65391bc5c359"]
     }
   },
   {
@@ -68,7 +67,9 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["samia-1"]    }
+      "spouses": ["samia-1"],
+      "children": ["7924ac1c-9042-48e0-8acd-59821b920624"]
+    }
   },
   {
     "id": "7924ac1c-9042-48e0-8acd-59821b920624",
@@ -183,7 +184,21 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["fareed-1"]
+      "spouses": ["fareed-1"],
+      "children": [
+        "shohaib-1",
+        "afzal-1",
+        "rasheed-1",
+        "arif-1",
+        "aliya-1",
+        "saeed-1",
+        "malka-1",
+        "waseeqa-1",
+        "arfa-1",
+        "bilqees-1",
+        "ashqa-1",
+        "shehnaz-1"
+      ]
     }
   },
   {
@@ -258,8 +273,7 @@
     "rels": {
       "father": "fareed-1",
       "mother": "sajid-1",
-      "spouses": ["baqir-ali-1"],
-      "children": ["mir-nasir-ali-1", "shahgufta-1", "shahista-1", "mir-qaisar-ali-1" ]
+      "spouses": ["baqir-ali-1"]
     }
   },
   {
@@ -272,7 +286,13 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["waseeqa-1"]
+      "spouses": ["waseeqa-1"],
+      "children": [
+        "mir-nasir-ali-1",
+        "shahgufta-1",
+        "shahista-1",
+        "mir-qaisar-ali-1"
+      ]
     }
   },
   {
@@ -358,8 +378,7 @@
     "rels": {
       "mother": "waseeqa-1",
       "father": "baqir-ali-1",
-      "spouses": ["irfan-1"],
-      "children": ["saqib-1", "maryam-2"]
+      "spouses": ["irfan-1"]
     }
   },
   {
@@ -372,7 +391,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["shahgufta-1"]
+      "spouses": ["shahgufta-1"],
+      "children": ["saqib-1", "maryam-2"]
     }
   },
   {
@@ -415,8 +435,7 @@
     "rels": {
       "mother": "waseeqa-1",
       "father": "baqir-ali-1",
-      "spouses": ["ibrahim-1"],
-      "children": ["usman-1"]
+      "spouses": ["ibrahim-1"]
     }
   },
   {
@@ -429,7 +448,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["shahista-1"]
+      "spouses": ["shahista-1"],
+      "children": ["usman-1"]
     }
   },
   {
@@ -631,15 +651,7 @@
     "rels": {
       "father": "fareed-1",
       "mother": "sajid-1",
-      "spouses": ["mir-azghar-1"],
-      "children": [
-        "mir-tanveer-1",
-        "farhana-1",
-        "mir-asfar-1",
-        "farya-1",
-        "mir-zubair-1",
-        "shahzia-1"
-      ]
+      "spouses": ["mir-azghar-1"]
     }
   },
   {
@@ -652,7 +664,15 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["bilqees-1"]
+      "spouses": ["bilqees-1"],
+      "children": [
+        "mir-tanveer-1",
+        "farhana-1",
+        "mir-asfar-1",
+        "farya-1",
+        "mir-zubair-1",
+        "shahzia-1"
+      ]
     }
   },
   {
@@ -767,8 +787,7 @@
     "rels": {
       "father": "mir-azghar-1",
       "mother": "bilqees-1",
-      "spouses": ["mir-qaisar-1"],
-      "children": ["wajeeha-1", "amina-1", "aqifa-1"]
+      "spouses": ["mir-qaisar-1"]
     }
   },
   {
@@ -781,7 +800,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["farhana-1"]
+      "spouses": ["farhana-1"],
+      "children": ["wajeeha-1", "amina-1", "aqifa-1"]
     }
   },
   {
@@ -979,8 +999,7 @@
     "rels": {
       "father": "mir-azghar-1",
       "mother": "bilqees-1",
-      "spouses": ["rashid-1"],
-      "children": ["rija-1", "maryam-1", "hashir-1"]
+      "spouses": ["rashid-1"]
     }
   },
   {
@@ -993,7 +1012,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["shahzia-1"]
+      "spouses": ["shahzia-1"],
+      "children": ["rija-1", "maryam-1", "hashir-1"]
     }
   },
   {
@@ -1050,8 +1070,7 @@
     "rels": {
       "father": "fareed-1",
       "mother": "sajid-1",
-      "spouses": ["ammar-1"],
-      "children": ["naila-1", "kamran-1", "furqan-1", "salman-1", "danish-1", "tabish-1"]
+      "spouses": ["ammar-1"]
     }
   },
   {
@@ -1064,7 +1083,15 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["ashqa-1"]
+      "spouses": ["ashqa-1"],
+      "children": [
+        "naila-1",
+        "kamran-1",
+        "furqan-1",
+        "salman-1",
+        "danish-1",
+        "tabish-1"
+      ]
     }
   },
   {
@@ -1079,8 +1106,7 @@
     "rels": {
       "father": "ammar-1",
       "mother": "ashqa-1",
-      "spouses": ["najeeb-1"],
-      "children": ["khadijah-1", "ifra-1", "bazil-1"]
+      "spouses": ["najeeb-1"]
     }
   },
   {
@@ -1093,7 +1119,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["naila-1"]
+      "spouses": ["naila-1"],
+      "children": ["khadijah-1", "ifra-1", "bazil-1"]
     }
   },
   {
@@ -1108,8 +1135,7 @@
     "rels": {
       "father": "najeeb-1",
       "mother": "naila-1",
-      "spouses": ["bilal-1"],
-      "children": ["yahya-1"]
+      "spouses": ["bilal-1"]
     }
   },
   {
@@ -1122,7 +1148,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["khadijah-1"]
+      "spouses": ["khadijah-1"],
+      "children": ["yahya-1"]
     }
   },
   {
@@ -1379,7 +1406,7 @@
       "father": "tabish-1",
       "mother": "rozeena-1"
     }
-  },  
+  },
   {
     "id": "shehnaz-1",
     "data": {
@@ -1392,8 +1419,7 @@
     "rels": {
       "father": "fareed-1",
       "mother": "sajid-1",
-      "spouses": ["shahid-1"],
-      "children": ["atif-1", "ahsan-2", "nabeel-1", "sadia-1"]
+      "spouses": ["shahid-1"]
     }
   },
   {
@@ -1406,7 +1432,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["shehnaz-1"]
+      "spouses": ["shehnaz-1"],
+      "children": ["atif-1", "ahsan-2", "nabeel-1", "sadia-1"]
     }
   },
   {
@@ -1464,7 +1491,7 @@
       "father": "shahid-1",
       "mother": "shehnaz-1"
     }
-  },  
+  },
   {
     "id": "rasheed-1",
     "data": {
@@ -1592,11 +1619,11 @@
     "rels": {
       "father": "masroor-1",
       "mother": "farah-1",
-      "spouses": ["sana-1"]
+      "spouses": ["sana-2"]
     }
   },
   {
-    "id": "sana-1",
+    "id": "sana-2",
     "data": {
       "gender": "F",
       "first name": "Sana",
@@ -1768,12 +1795,7 @@
     "rels": {
       "father": "afzal-1",
       "mother": "c07f7682-5d32-461f-85f3-ad60505ffe8d",
-      "spouses": ["9d4f1055-471b-4162-a7fa-37265838ea5c"],
-      "children": [
-        "d1b34930-a967-42db-adf8-8aa586c81a5c",
-        "fce4f269-c977-49fa-a515-a8d1259e896f",
-        "29dfc946-2876-46eb-b4fd-a3ba47503912"
-      ]
+      "spouses": ["9d4f1055-471b-4162-a7fa-37265838ea5c"]
     }
   },
   {
@@ -1876,8 +1898,7 @@
     "rels": {
       "father": "shohaib-1",
       "mother": "nafis-1",
-      "spouses": ["yousuf-1", "azmat-1"],
-      "children": ["sana-1", "sameen-1", "sidra-1", "taha-1"]
+      "spouses": ["yousuf-1", "azmat-1"]
     }
   },
   {
@@ -1903,7 +1924,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["uzma-1"]
+      "spouses": ["uzma-1"],
+      "children": ["sana-1", "sameen-1", "sidra-1", "taha-1"]
     }
   },
   {
@@ -1918,8 +1940,7 @@
     "rels": {
       "mother": "uzma-1",
       "father": "azmat-1",
-      "spouses": ["zafar-1"],
-      "children": ["esa-1"]
+      "spouses": ["zafar-1"]
     }
   },
   {
@@ -1932,7 +1953,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["sana-1"]
+      "spouses": ["sana-1"],
+      "children": ["esa-1"]
     }
   },
   {
@@ -1961,12 +1983,11 @@
     "rels": {
       "mother": "uzma-1",
       "father": "azmat-1",
-      "spouses": ["taha-1"],
-      "children": ["zaidan-1", "sara-1"]
+      "spouses": ["taha-2"]
     }
   },
   {
-    "id": "taha-1",
+    "id": "taha-2",
     "data": {
       "gender": "M",
       "first name": "Taha",
@@ -1975,7 +1996,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["sameen-1"]
+      "spouses": ["sameen-1"],
+      "children": ["zaidan-1", "sara-1"]
     }
   },
   {
@@ -2018,8 +2040,7 @@
     "rels": {
       "mother": "uzma-1",
       "father": "azmat-1",
-      "spouses": ["zaid-1"],
-      "children": ["yousuf-2"]
+      "spouses": ["zaid-1"]
     }
   },
   {
@@ -2032,7 +2053,8 @@
       "avatar": ""
     },
     "rels": {
-      "spouses": ["sidra-1"]
+      "spouses": ["sidra-1"],
+      "children": ["yousuf-2"]
     }
   },
   {
