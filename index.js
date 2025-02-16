@@ -1,3 +1,4 @@
+
 async function fetchData() {
     const response = await fetch('data-siddiqui-family.json');
     const data = await response.json();
@@ -16,9 +17,9 @@ async function createFamilyTree() {
         const data = await fetchData();
 
         const f3Chart = f3.createChart('#FamilyChart', data)
-            .setTransitionTime(1000)
+            .setTransitionTime(2000)
             .setCardXSpacing(250)
-            .setCardYSpacing(150)
+            .setCardYSpacing(125)
             .setOrientationVertical()
             .setSingleParentEmptyCard(true, { label: 'ADD' })
 
