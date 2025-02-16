@@ -1,348 +1,2446 @@
 [
-    {
-        "id": "fareed-1",
-        "data": {
-            "gender": "M",
-            "first name": "Fareed",
-            "last name": "Ahmed Siddiqui",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "children": [
-                "shohaib-1",
-                "afzal-1",
-                "rasheed-1",
-                "arif-1",
-                "aliya-1",
-                "saeed-1",
-                "malka-1",
-                "waseeqa-1",
-                "arfa-1",
-                "bilqees-1",
-                "ashqa-1",
-                "shehnaz-1"
-            ],
-            "spouses": [
-                "sajid-1"
-            ]
-        }
+  {
+    "id": "0",
+    "rels": {
+      "spouses": ["erum-1"],
+      "children": ["hamza-1", "samia-1", "tayyab-1", "hira-1"],
+      "father": "shohaib-1",
+      "mother": "nafis-1"
     },
-    {
-        "id": "sajid-1",
-        "data": {
-            "gender": "F",
-            "first name": "Sajid",
-            "last name": "Un Nisa",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "children": [
-                "shohaib-1",
-                "afzal-1",
-                "rasheed-1",
-                "arif-1",
-                "aliya-1",
-                "saeed-1",
-                "malka-1",
-                "waseeqa-1",
-                "arfa-1",
-                "bilqees-1",
-                "ashqa-1",
-                "shehnaz-1"
-            ],
-            "spouses": [
-                "fareed-1"
-            ]
-        }
-    },
-    {
-        "id": "shohaib-1",
-        "data": {
-            "gender": "M",
-            "first name": "Shohaib",
-            "last name": "Ahmed Siddiqui",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": ["0"]
-        }
-    },
-    {
-        "id": "afzal-1",
-        "data": {
-            "gender": "M",
-            "first name": "Afzal",
-            "last name": "Ahmed Siddiqui",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "rasheed-1",
-        "data": {
-            "gender": "M",
-            "first name": "Rasheed",
-            "last name": "Ahmed Siddiqui",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "arif-1",
-        "data": {
-            "gender": "M",
-            "first name": "Arif",
-            "last name": "Ahmed Siddiqui",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "aliya-1",
-        "data": {
-            "gender": "F",
-            "first name": "Aliya",
-            "last name": "Begum",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "saeed-1",
-        "data": {
-            "gender": "M",
-            "first name": "Saeed",
-            "last name": "Ahmed Siddiqui",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "malka-1",
-        "data": {
-            "gender": "F",
-            "first name": "Malka",
-            "last name": "Humera",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "waseeqa-1",
-        "data": {
-            "gender": "F",
-            "first name": "Waseeqa",
-            "last name": "Baqir",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "arfa-1",
-        "data": {
-            "gender": "F",
-            "first name": "Arfa",
-            "last name": "Ameer",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "bilqees-1",
-        "data": {
-            "gender": "F",
-            "first name": "Bilqees",
-            "last name": "Agha",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "ashqa-1",
-        "data": {
-            "gender": "F",
-            "first name": "Ashqa",
-            "last name": "Anwar",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "shehnaz-1",
-        "data": {
-            "gender": "F",
-            "first name": "Shehnaz",
-            "last name": "Shahid",
-            "birthday": "",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "fareed-1",
-            "mother": "sajid-1",
-            "children": []
-        }
-    },
-    {
-        "id": "0",
-        "data": {
-            "gender": "M",
-            "first name": "Asif",
-            "last name": "Ahmed Siddiqui",
-            "birthday": "15/04/1965",
-            "avatar": "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg"
-        },
-        "rels": {
-            "children": [
-                "hamza-1",
-                "samia-1",
-                "tayyab-1",
-                "hira-1"
-            ],
-            "father": "shohaib-1",
-            "spouses": [
-                "erum-1"
-            ]
-        }
-    },
-    {
-        "id": "erum-1",
-        "data": {
-            "gender": "F",
-            "first name": "Erum",
-            "last name": "Asif",
-            "birthday": "24/07/1972",
-            "avatar": ""
-        },
-        "rels": {
-            "spouses": [
-                "0"
-            ],
-            "children": [
-                "hamza-1",
-                "samia-1",
-                "tayyab-1",
-                "hira-1"
-            ]
-        }
-    },
-    {
-        "id": "hamza-1",
-        "data": {
-            "gender": "M",
-            "first name": "Hamza",
-            "last name": "Siddiqui",
-            "birthday": "24/06/2000",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "0",
-            "mother": "erum-1"
-        }
-    },
-    {
-        "id": "samia-1",
-        "data": {
-            "gender": "F",
-            "first name": "Samia",
-            "last name": "Siddiqui",
-            "birthday": "22/01/1996",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "0",
-            "mother": "erum-1",
-            "spouses": [
-                "9524fb58-5bb0-4e0e-a3b5-65391bc5c359"
-            ],
-            "children": [
-                "7924ac1c-9042-48e0-8acd-59821b920624"
-            ]
-        }
-    },
-    {
-        "id": "tayyab-1",
-        "data": {
-            "gender": "M",
-            "first name": "Tayyab",
-            "last name": "Ahmed Siddiqui",
-            "birthday": "08/10/2004",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "0",
-            "mother": "erum-1"
-        }
-    },
-    {
-        "id": "hira-1",
-        "data": {
-            "gender": "F",
-            "first name": "Hira",
-            "last name": "Siddiqui",
-            "birthday": "24/06/1998",
-            "avatar": ""
-        },
-        "rels": {
-            "father": "0",
-            "mother": "erum-1",
-            "spouses": [
-                "c4248d29-4ddb-4916-871a-6415dcf31802"
-            ]
-        }
+    "data": {
+      "first name": "Asif ",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "15/04/1965",
+      "avatar": "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg",
+      "gender": "M"
     }
+  },
+  {
+    "id": "erum-1",
+    "data": {
+      "gender": "F",
+      "first name": "Erum",
+      "last name": "Asif",
+      "birthday": "24/07/1972",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["0"],
+      "children": ["hamza-1", "samia-1", "tayyab-1", "hira-1"]
+    }
+  },
+  {
+    "id": "hamza-1",
+    "data": {
+      "gender": "M",
+      "first name": "Hamza",
+      "last name": "Siddiqui",
+      "birthday": "24/06/2000",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-1"
+    }
+  },
+  {
+    "id": "samia-1",
+    "data": {
+      "gender": "F",
+      "first name": "Samia",
+      "last name": "Siddiqui",
+      "birthday": "22/01/1996",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-1",
+      "spouses": ["9524fb58-5bb0-4e0e-a3b5-65391bc5c359"],
+      "children": ["7924ac1c-9042-48e0-8acd-59821b920624"]
+    }
+  },
+  {
+    "id": "9524fb58-5bb0-4e0e-a3b5-65391bc5c359",
+    "data": {
+      "gender": "F",
+      "first name": "Taha",
+      "last name": "Ahmed Khan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["samia-1"],
+      "children": ["7924ac1c-9042-48e0-8acd-59821b920624"]
+    }
+  },
+  {
+    "id": "7924ac1c-9042-48e0-8acd-59821b920624",
+    "data": {
+      "gender": "M",
+      "first name": "Amin",
+      "last name": "Ahmed Khan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "samia-1",
+      "mother": "9524fb58-5bb0-4e0e-a3b5-65391bc5c359"
+    }
+  },
+  {
+    "id": "tayyab-1",
+    "data": {
+      "gender": "M",
+      "first name": "Tayyab",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "08/10/2004",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-1"
+    }
+  },
+  {
+    "id": "hira-1",
+    "data": {
+      "gender": "F",
+      "first name": "Hira",
+      "last name": "Siddiqui",
+      "birthday": "24/06/1998",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-1",
+      "spouses": ["c4248d29-4ddb-4916-871a-6415dcf31802"]
+    }
+  },
+  {
+    "id": "shohaib-1",
+    "data": {
+      "gender": "M",
+      "first name": "Shohaib",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "0",
+        "uzma-1",
+        "aamir-1",
+        "8d3ad4e1-c5c6-4322-a223-d129a8a6904a"
+      ],
+      "spouses": ["nafis-1"],
+      "father": "fareed-1",
+      "mother": "sajid-1"
+    }
+  },
+  {
+    "id": "nafis-1",
+    "data": {
+      "gender": "F",
+      "first name": "Nafis",
+      "last name": "Un Nisa",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "0",
+        "uzma-1",
+        "aamir-1",
+        "8d3ad4e1-c5c6-4322-a223-d129a8a6904a"
+      ],
+      "spouses": ["shohaib-1"]
+    }
+  },
+  {
+    "id": "c4248d29-4ddb-4916-871a-6415dcf31802",
+    "data": {
+      "gender": "M",
+      "first name": "M Hasaan",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["hira-1"],
+      "children": []
+    }
+  },
+  {
+    "id": "fareed-1",
+    "data": {
+      "gender": "M",
+      "first name": "Fareed ",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "shohaib-1",
+        "afzal-1",
+        "rasheed-1",
+        "arif-1",
+        "aliya-1",
+        "saeed-1",
+        "malka-1",
+        "waseeqa-1",
+        "arfa-1",
+        "bilqees-1",
+        "ashqa-1",
+        "shehnaz-1"
+      ],
+      "spouses": ["sajid-1"]
+    }
+  },
+  {
+    "id": "sajid-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sajid",
+      "last name": "Un Nisa",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "shohaib-1",
+        "afzal-1",
+        "rasheed-1",
+        "arif-1",
+        "aliya-1",
+        "saeed-1",
+        "malka-1",
+        "waseeqa-1",
+        "arfa-1",
+        "bilqees-1",
+        "ashqa-1",
+        "shehnaz-1"
+      ],
+      "spouses": ["fareed-1"]
+    }
+  },
+  {
+    "id": "arif-1",
+    "data": {
+      "gender": "M",
+      "first name": "Arif",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "aliya-1",
+    "data": {
+      "gender": "F",
+      "first name": "Aliya",
+      "last name": "Begum",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "saeed-1",
+    "data": {
+      "gender": "M",
+      "first name": "Saeed",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "malka-1",
+    "data": {
+      "gender": "F",
+      "first name": "Malka",
+      "last name": "Humera",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "waseeqa-1",
+    "data": {
+      "gender": "F",
+      "first name": "Waseeqa",
+      "last name": "Baqir",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": ["baqir-ali-1"],
+      "children": ["mir-nasir-ali-1", "shahgufta-1", "shahista-1", "mir-qaisar-ali-1" ]
+    }
+  },
+  {
+    "id": "baqir-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Baqir Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["waseeqa-1"],
+      "children": ["mir-nasir-ali-1", "shahgufta-1", "shahista-1", "mir-qaisar-ali-1"]
+    }
+  },
+  {
+    "id": "farhana-2",
+    "data": {
+      "gender": "F",
+      "first name": "Farhana",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-qaisar-ali-1"],
+      "children": ["wajeeha-2", "amina-2", "aqifa-2"]
+    }
+  },
+  {
+    "id": "mir-qaisar-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Qaisar Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-1",
+      "father": "baqir-ali-1",
+      "spouses": ["farhana-2"],
+      "children": ["wajeeha-2", "amina-2", "aqifa-2"]
+    }
+  },
+  {
+    "id": "wajeeha-2",
+    "data": {
+      "gender": "F",
+      "first name": "Wajeeha",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-2"
+    }
+  },
+  {
+    "id": "amina-2",
+    "data": {
+      "gender": "F",
+      "first name": "Amina",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-2"
+    }
+  },
+  {
+    "id": "aqifa-2",
+    "data": {
+      "gender": "F",
+      "first name": "Aqifa",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-2"
+    }
+  },
+  {
+    "id": "shahgufta-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shahgufta",
+      "last name": "Warsi",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-1",
+      "father": "baqir-ali-1",
+      "spouses": ["irfan-1"],
+      "children": ["saqib-1", "maryam-2"]
+    }
+  },
+  {
+    "id": "irfan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Irfan",
+      "last name": "Warsi",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shahgufta-1"],
+      "children": ["saqib-1", "maryam-2"]
+    }
+  },
+  {
+    "id": "saqib-1",
+    "data": {
+      "gender": "M",
+      "first name": "Saqib",
+      "last name": "Irfan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "irfan-1",
+      "mother": "shahgufta-1"
+    }
+  },
+  {
+    "id": "maryam-2",
+    "data": {
+      "gender": "F",
+      "first name": "Maryam",
+      "last name": "Irfan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "irfan-1",
+      "mother": "shahgufta-1"
+    }
+  },
+  {
+    "id": "shahista-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shahista",
+      "last name": "Farheen",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-1",
+      "father": "baqir-ali-1",
+      "spouses": ["ibrahim-1"],
+      "children": ["usman-1"]
+    }
+  },
+  {
+    "id": "ibrahim-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ibrahim",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shahista-1"],
+      "children": ["usman-1"]
+    }
+  },
+  {
+    "id": "usman-1",
+    "data": {
+      "gender": "M",
+      "first name": "Usman",
+      "last name": "Ibrahim",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ibrahim-1",
+      "mother": "shahista-1"
+    }
+  },
+  {
+    "id": "mir-nasir-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Nasir Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "baqir-ali-1",
+      "mother": "waseeqa-1",
+      "spouses": ["nazneen-1"],
+      "children": ["mir-arsalan-ali-1", "mir-yazdan-ali-1", "madiha-1"]
+    }
+  },
+  {
+    "id": "nazneen-1",
+    "data": {
+      "gender": "F",
+      "first name": "Nazneen",
+      "last name": "Nasir",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-nasir-ali-1"],
+      "children": ["mir-arsalan-ali-1", "mir-yazdan-ali-1", "madiha-1"]
+    }
+  },
+  {
+    "id": "mir-arsalan-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Arsalan Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-nasir-ali-1",
+      "mother": "nazneen-1",
+      "spouses": ["batool-1"]
+    }
+  },
+  {
+    "id": "batool-1",
+    "data": {
+      "gender": "F",
+      "first name": "Batool",
+      "last name": "Arsalan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-arsalan-ali-1"]
+    }
+  },
+  {
+    "id": "mir-yazdan-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Yazdan Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-nasir-ali-1",
+      "mother": "nazneen-1",
+      "spouses": ["maryum-1"],
+      "children": ["zaina-1", "zara-1"]
+    }
+  },
+  {
+    "id": "maryum-1",
+    "data": {
+      "gender": "F",
+      "first name": "Maryum",
+      "last name": "Yazdan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-yazdan-ali-1"],
+      "children": ["zaina-1", "zara-1"]
+    }
+  },
+  {
+    "id": "zaina-1",
+    "data": {
+      "gender": "F",
+      "first name": "Zaina",
+      "last name": "Yazdan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-yazdan-ali-1",
+      "mother": "maryum-1"
+    }
+  },
+  {
+    "id": "zara-1",
+    "data": {
+      "gender": "F",
+      "first name": "Zara",
+      "last name": "Yazdan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-yazdan-ali-1",
+      "mother": "maryum-1"
+    }
+  },
+  {
+    "id": "madiha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Madiha",
+      "last name": "Talha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-nasir-ali-1",
+      "mother": "nazneen-1",
+      "spouses": ["talha-1"],
+      "children": ["emaan-1"]
+    }
+  },
+  {
+    "id": "talha-1",
+    "data": {
+      "gender": "M",
+      "first name": "Talha",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["madiha-1"],
+      "children": ["emaan-1"]
+    }
+  },
+  {
+    "id": "emaan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Emaan",
+      "last name": "Talha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "talha-1",
+      "mother": "madiha-1"
+    }
+  },
+  {
+    "id": "arfa-1",
+    "data": {
+      "gender": "F",
+      "first name": "Arfa",
+      "last name": "Ameer",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "bilqees-1",
+    "data": {
+      "gender": "F",
+      "first name": "Bilqees",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": ["mir-azghar-1"],
+      "children": [
+        "mir-tanveer-1",
+        "farhana-1",
+        "mir-asfar-1",
+        "farya-1",
+        "mir-zubair-1",
+        "shahzia-1"
+      ]
+    }
+  },
+  {
+    "id": "mir-azghar-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Azghar Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["bilqees-1"],
+      "children": [
+        "mir-tanveer-1",
+        "farhana-1",
+        "mir-asfar-1",
+        "farya-1",
+        "mir-zubair-1",
+        "shahzia-1"
+      ]
+    }
+  },
+  {
+    "id": "mir-tanveer-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Tanveer Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-1",
+      "spouses": ["lubna-1"],
+      "children": ["shaheer-1", "sonu-1"]
+    }
+  },
+  {
+    "id": "lubna-1",
+    "data": {
+      "gender": "F",
+      "first name": "Lubna",
+      "last name": "Tanveer",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-tanveer-1"],
+      "children": ["shaheer-1", "sonu-1"]
+    }
+  },
+  {
+    "id": "shaheer-1",
+    "data": {
+      "gender": "M",
+      "first name": "Shaheer Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-tanveer-1",
+      "mother": "lubna-1",
+      "spouses": ["areeba-1"],
+      "children": ["mir-haider-1", "mir-mirha-1"]
+    }
+  },
+  {
+    "id": "areeba-1",
+    "data": {
+      "gender": "F",
+      "first name": "Areeba",
+      "last name": "Shaheer",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shaheer-1"],
+      "children": ["mir-haider-1", "mir-mirha-1"]
+    }
+  },
+  {
+    "id": "mir-haider-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Haider",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shaheer-1",
+      "mother": "areeba-1"
+    }
+  },
+  {
+    "id": "mir-mirha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Mir Mirha",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shaheer-1",
+      "mother": "areeba-1"
+    }
+  },
+  {
+    "id": "sonu-1",
+    "data": {
+      "gender": "M",
+      "first name": "Sonu",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-tanveer-1",
+      "mother": "lubna-1"
+    }
+  },
+  {
+    "id": "farhana-1",
+    "data": {
+      "gender": "F",
+      "first name": "Farhana",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-1",
+      "spouses": ["mir-qaisar-1"],
+      "children": ["wajeeha-1", "amina-1", "aqifa-1"]
+    }
+  },
+  {
+    "id": "mir-qaisar-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Qaisar Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["farhana-1"],
+      "children": ["wajeeha-1", "amina-1", "aqifa-1"]
+    }
+  },
+  {
+    "id": "wajeeha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Wajeeha",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-1",
+      "mother": "farhana-1"
+    }
+  },
+  {
+    "id": "amina-1",
+    "data": {
+      "gender": "F",
+      "first name": "Amina",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-1",
+      "mother": "farhana-1"
+    }
+  },
+  {
+    "id": "aqifa-1",
+    "data": {
+      "gender": "F",
+      "first name": "Aqifa",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-1",
+      "mother": "farhana-1"
+    }
+  },
+  {
+    "id": "mir-asfar-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Asfar Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-1",
+      "spouses": ["sara-2"]
+    }
+  },
+  {
+    "id": "sara-2",
+    "data": {
+      "gender": "F",
+      "first name": "Sara",
+      "last name": "Asfar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-asfar-1"]
+    }
+  },
+  {
+    "id": "farya-1",
+    "data": {
+      "gender": "F",
+      "first name": "Farya",
+      "last name": "Basheer",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-1",
+      "spouses": ["basheer-1"]
+    }
+  },
+  {
+    "id": "basheer-1",
+    "data": {
+      "gender": "M",
+      "first name": "Basheer",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["farya-1"]
+    }
+  },
+  {
+    "id": "mir-zubair-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Zubair Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-1",
+      "spouses": ["erum-2"],
+      "children": ["mir-muntasir-1", "maria-1", "aleena-1", "mir-umer-1"]
+    }
+  },
+  {
+    "id": "erum-2",
+    "data": {
+      "gender": "F",
+      "first name": "Erum",
+      "last name": "Zubair",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-zubair-1"],
+      "children": ["mir-muntasir-1", "maria-1", "aleena-1", "mir-umer-1"]
+    }
+  },
+  {
+    "id": "mir-muntasir-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Muntasir",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-zubair-1",
+      "mother": "erum-2"
+    }
+  },
+  {
+    "id": "maria-1",
+    "data": {
+      "gender": "F",
+      "first name": "Maria",
+      "last name": "Zubair",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-zubair-1",
+      "mother": "erum-2"
+    }
+  },
+  {
+    "id": "aleena-1",
+    "data": {
+      "gender": "F",
+      "first name": "Aleena",
+      "last name": "Zubair",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-zubair-1",
+      "mother": "erum-2"
+    }
+  },
+  {
+    "id": "mir-umer-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Umer Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-zubair-1",
+      "mother": "erum-2"
+    }
+  },
+  {
+    "id": "shahzia-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shahzia",
+      "last name": "Rashid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-1",
+      "spouses": ["rashid-1"],
+      "children": ["rija-1", "maryam-1", "hashir-1"]
+    }
+  },
+  {
+    "id": "rashid-1",
+    "data": {
+      "gender": "M",
+      "first name": "Rashid",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shahzia-1"],
+      "children": ["rija-1", "maryam-1", "hashir-1"]
+    }
+  },
+  {
+    "id": "rija-1",
+    "data": {
+      "gender": "F",
+      "first name": "Rija",
+      "last name": "Rashid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rashid-1",
+      "mother": "shahzia-1"
+    }
+  },
+  {
+    "id": "maryam-1",
+    "data": {
+      "gender": "F",
+      "first name": "Maryam",
+      "last name": "Rashid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rashid-1",
+      "mother": "shahzia-1"
+    }
+  },
+  {
+    "id": "hashir-1",
+    "data": {
+      "gender": "M",
+      "first name": "Hashir",
+      "last name": "Rashid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rashid-1",
+      "mother": "shahzia-1"
+    }
+  },
+  {
+    "id": "ashqa-1",
+    "data": {
+      "gender": "F",
+      "first name": "Ashqa",
+      "last name": "Anwar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": ["ammar-1"],
+      "children": ["naila-1", "kamran-1", "furqan-1", "salman-1", "danish-1", "tabish-1"]
+    }
+  },
+  {
+    "id": "ammar-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ammar",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["ashqa-1"],
+      "children": ["naila-1", "kamran-1", "furqan-1", "salman-1", "danish-1", "tabish-1"]
+    }
+  },
+  {
+    "id": "naila-1",
+    "data": {
+      "gender": "F",
+      "first name": "Naila",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-1",
+      "mother": "ashqa-1",
+      "spouses": ["najeeb-1"],
+      "children": ["khadijah-1", "ifra-1", "bazil-1"]
+    }
+  },
+  {
+    "id": "najeeb-1",
+    "data": {
+      "gender": "M",
+      "first name": "Najeeb",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["naila-1"],
+      "children": ["khadijah-1", "ifra-1", "bazil-1"]
+    }
+  },
+  {
+    "id": "khadijah-1",
+    "data": {
+      "gender": "F",
+      "first name": "Khadijah",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "najeeb-1",
+      "mother": "naila-1",
+      "spouses": ["bilal-1"],
+      "children": ["yahya-1"]
+    }
+  },
+  {
+    "id": "bilal-1",
+    "data": {
+      "gender": "M",
+      "first name": "Bilal",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["khadijah-1"],
+      "children": ["yahya-1"]
+    }
+  },
+  {
+    "id": "yahya-1",
+    "data": {
+      "gender": "M",
+      "first name": "Yahya",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bilal-1",
+      "mother": "khadijah-1"
+    }
+  },
+  {
+    "id": "ifra-1",
+    "data": {
+      "gender": "F",
+      "first name": "Ifra",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "najeeb-1",
+      "mother": "naila-1"
+    }
+  },
+  {
+    "id": "bazil-1",
+    "data": {
+      "gender": "M",
+      "first name": "Bazil",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "najeeb-1",
+      "mother": "naila-1"
+    }
+  },
+  {
+    "id": "kamran-1",
+    "data": {
+      "gender": "M",
+      "first name": "Kamran",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-1",
+      "mother": "ashqa-1",
+      "spouses": ["rufi-1"]
+    }
+  },
+  {
+    "id": "rufi-1",
+    "data": {
+      "gender": "F",
+      "first name": "Rufi",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["kamran-1"]
+    }
+  },
+  {
+    "id": "furqan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Furqan",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-1",
+      "mother": "ashqa-1",
+      "spouses": ["shumaila-1"],
+      "children": ["rija-1", "ammar-2"]
+    }
+  },
+  {
+    "id": "shumaila-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shumaila",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["furqan-1"],
+      "children": ["rija-1", "ammar-2"]
+    }
+  },
+  {
+    "id": "rija-1",
+    "data": {
+      "gender": "F",
+      "first name": "Rija",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "furqan-1",
+      "mother": "shumaila-1"
+    }
+  },
+  {
+    "id": "ammar-2",
+    "data": {
+      "gender": "M",
+      "first name": "Ammar",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "furqan-1",
+      "mother": "shumaila-1"
+    }
+  },
+  {
+    "id": "salman-1",
+    "data": {
+      "gender": "M",
+      "first name": "Salman",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-1",
+      "mother": "ashqa-1",
+      "spouses": ["beenish-1"],
+      "children": ["kubra-1", "ahmed-1"]
+    }
+  },
+  {
+    "id": "beenish-1",
+    "data": {
+      "gender": "F",
+      "first name": "Beenish",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["salman-1"],
+      "children": ["kubra-1", "ahmed-1"]
+    }
+  },
+  {
+    "id": "kubra-1",
+    "data": {
+      "gender": "F",
+      "first name": "Kubra",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "salman-1",
+      "mother": "beenish-1"
+    }
+  },
+  {
+    "id": "ahmed-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ahmed",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "salman-1",
+      "mother": "beenish-1"
+    }
+  },
+  {
+    "id": "danish-1",
+    "data": {
+      "gender": "M",
+      "first name": "Danish",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-1",
+      "mother": "ashqa-1",
+      "spouses": ["farheen-1"]
+    }
+  },
+  {
+    "id": "farheen-1",
+    "data": {
+      "gender": "F",
+      "first name": "Farheen",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["danish-1"]
+    }
+  },
+  {
+    "id": "tabish-1",
+    "data": {
+      "gender": "M",
+      "first name": "Tabish",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-1",
+      "mother": "ashqa-1",
+      "spouses": ["rozeena-1"],
+      "children": ["anaya-1"]
+    }
+  },
+  {
+    "id": "rozeena-1",
+    "data": {
+      "gender": "F",
+      "first name": "Rozeena",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["tabish-1"],
+      "children": ["anaya-1"]
+    }
+  },
+  {
+    "id": "anaya-1",
+    "data": {
+      "gender": "F",
+      "first name": "Anaya",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "tabish-1",
+      "mother": "rozeena-1"
+    }
+  },  
+  {
+    "id": "shehnaz-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shehnaz",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": ["shahid-1"],
+      "children": ["atif-1", "ahsan-2", "nabeel-1", "sadia-1"]
+    }
+  },
+  {
+    "id": "shahid-1",
+    "data": {
+      "gender": "M",
+      "first name": "Shahid",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shehnaz-1"],
+      "children": ["atif-1", "ahsan-2", "nabeel-1", "sadia-1"]
+    }
+  },
+  {
+    "id": "atif-1",
+    "data": {
+      "gender": "M",
+      "first name": "Atif",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shahid-1",
+      "mother": "shehnaz-1"
+    }
+  },
+  {
+    "id": "ahsan-2",
+    "data": {
+      "gender": "M",
+      "first name": "Ahsan",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shahid-1",
+      "mother": "shehnaz-1"
+    }
+  },
+  {
+    "id": "nabeel-1",
+    "data": {
+      "gender": "M",
+      "first name": "Nabeel",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shahid-1",
+      "mother": "shehnaz-1"
+    }
+  },
+  {
+    "id": "sadia-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sadia",
+      "last name": "Shahid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shahid-1",
+      "mother": "shehnaz-1"
+    }
+  },  
+  {
+    "id": "rasheed-1",
+    "data": {
+      "gender": "M",
+      "first name": "Rasheed",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": ["sarwar-1"],
+      "children": ["aftab-1", "farah-1", "rizwan-1"]
+    }
+  },
+  {
+    "id": "sarwar-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sarwar",
+      "last name": "Rasheed",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["rasheed-1"],
+      "children": ["aftab-1", "farah-1", "rizwan-1"]
+    }
+  },
+  {
+    "id": "aftab-1",
+    "data": {
+      "gender": "M",
+      "first name": "Aftab",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rasheed-1",
+      "mother": "sarwar-1",
+      "spouses": ["charlen-1"],
+      "children": ["kenzie-1", "kelly-1"]
+    }
+  },
+  {
+    "id": "charlen-1",
+    "data": {
+      "gender": "F",
+      "first name": "Charlen",
+      "last name": "Aftab",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["aftab-1"],
+      "children": ["kenzie-1", "kelly-1"]
+    }
+  },
+  {
+    "id": "kenzie-1",
+    "data": {
+      "gender": "F",
+      "first name": "Kenzie",
+      "last name": "Bost Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "aftab-1",
+      "mother": "charlen-1"
+    }
+  },
+  {
+    "id": "kelly-1",
+    "data": {
+      "gender": "F",
+      "first name": "Kelly",
+      "last name": "Bost Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "aftab-1",
+      "mother": "charlen-1"
+    }
+  },
+  {
+    "id": "farah-1",
+    "data": {
+      "gender": "F",
+      "first name": "Farah",
+      "last name": "Masroor",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rasheed-1",
+      "mother": "sarwar-1",
+      "spouses": ["masroor-1"],
+      "children": ["ahsan-1", "mohsin-1", "noman-1"]
+    }
+  },
+  {
+    "id": "masroor-1",
+    "data": {
+      "gender": "M",
+      "first name": "Masroor",
+      "last name": "Ali",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["farah-1"],
+      "children": ["ahsan-1", "mohsin-1", "noman-1"]
+    }
+  },
+  {
+    "id": "ahsan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ahsan",
+      "last name": "Masroor",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "masroor-1",
+      "mother": "farah-1",
+      "spouses": ["sana-1"]
+    }
+  },
+  {
+    "id": "sana-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sana",
+      "last name": "Ahsan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["ahsan-1"]
+    }
+  },
+  {
+    "id": "mohsin-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mohsin",
+      "last name": "Masroor",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "masroor-1",
+      "mother": "farah-1",
+      "spouses": ["safa-1"]
+    }
+  },
+  {
+    "id": "safa-1",
+    "data": {
+      "gender": "F",
+      "first name": "Safa",
+      "last name": "Mohsin",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mohsin-1"]
+    }
+  },
+  {
+    "id": "noman-1",
+    "data": {
+      "gender": "M",
+      "first name": "Noman",
+      "last name": "Masroor",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "masroor-1",
+      "mother": "farah-1",
+      "spouses": []
+    }
+  },
+  {
+    "id": "rizwan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Rizwan",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rasheed-1",
+      "mother": "sarwar-1",
+      "spouses": [],
+      "children": ["alisha-1"]
+    }
+  },
+  {
+    "id": "alisha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Alisha",
+      "last name": "Hamza",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rizwan-1",
+      "spouses": ["hamza-2"]
+    }
+  },
+  {
+    "id": "hamza-2",
+    "data": {
+      "gender": "M",
+      "first name": "Hamza",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["alisha-1"]
+    }
+  },
+  {
+    "id": "arif-1",
+    "data": {
+      "gender": "M",
+      "first name": "Arif",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": [],
+      "children": []
+    }
+  },
+  {
+    "id": "afzal-1",
+    "data": {
+      "gender": "M",
+      "first name": "Afzal ",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-1",
+      "mother": "sajid-1",
+      "spouses": ["c07f7682-5d32-461f-85f3-ad60505ffe8d"],
+      "children": [
+        "a9dde1eb-ea4b-4c07-adcd-9d61d89e9c43",
+        "025193a5-5146-4ff0-91d3-5ab0506d85df",
+        "52e9bc54-76eb-4073-a022-83e609cc9c93"
+      ]
+    }
+  },
+  {
+    "id": "c07f7682-5d32-461f-85f3-ad60505ffe8d",
+    "data": {
+      "gender": "F",
+      "first name": "Asiya ",
+      "last name": "Khatoon",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["afzal-1"],
+      "children": [
+        "a9dde1eb-ea4b-4c07-adcd-9d61d89e9c43",
+        "025193a5-5146-4ff0-91d3-5ab0506d85df",
+        "52e9bc54-76eb-4073-a022-83e609cc9c93"
+      ]
+    }
+  },
+  {
+    "id": "a9dde1eb-ea4b-4c07-adcd-9d61d89e9c43",
+    "data": {
+      "gender": "M",
+      "first name": "Khalid",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "afzal-1",
+      "mother": "c07f7682-5d32-461f-85f3-ad60505ffe8d"
+    }
+  },
+  {
+    "id": "025193a5-5146-4ff0-91d3-5ab0506d85df",
+    "data": {
+      "gender": "F",
+      "first name": "Sabiha ",
+      "last name": "Abbas",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "afzal-1",
+      "mother": "c07f7682-5d32-461f-85f3-ad60505ffe8d",
+      "spouses": ["9d4f1055-471b-4162-a7fa-37265838ea5c"],
+      "children": [
+        "d1b34930-a967-42db-adf8-8aa586c81a5c",
+        "fce4f269-c977-49fa-a515-a8d1259e896f",
+        "29dfc946-2876-46eb-b4fd-a3ba47503912"
+      ]
+    }
+  },
+  {
+    "id": "52e9bc54-76eb-4073-a022-83e609cc9c93",
+    "data": {
+      "gender": "M",
+      "first name": "Iqbal",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "afzal-1",
+      "mother": "c07f7682-5d32-461f-85f3-ad60505ffe8d"
+    }
+  },
+  {
+    "id": "9d4f1055-471b-4162-a7fa-37265838ea5c",
+    "data": {
+      "gender": "F",
+      "first name": "Imran",
+      "last name": "Abbasi",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["025193a5-5146-4ff0-91d3-5ab0506d85df"],
+      "children": [
+        "d1b34930-a967-42db-adf8-8aa586c81a5c",
+        "fce4f269-c977-49fa-a515-a8d1259e896f",
+        "29dfc946-2876-46eb-b4fd-a3ba47503912"
+      ]
+    }
+  },
+  {
+    "id": "d1b34930-a967-42db-adf8-8aa586c81a5c",
+    "data": {
+      "gender": "F",
+      "first name": "Javeria",
+      "last name": "Binte Abbas",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "025193a5-5146-4ff0-91d3-5ab0506d85df",
+      "mother": "9d4f1055-471b-4162-a7fa-37265838ea5c"
+    }
+  },
+  {
+    "id": "fce4f269-c977-49fa-a515-a8d1259e896f",
+    "data": {
+      "gender": "F",
+      "first name": "Zainab",
+      "last name": "Binte Abbas",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "025193a5-5146-4ff0-91d3-5ab0506d85df",
+      "mother": "9d4f1055-471b-4162-a7fa-37265838ea5c",
+      "spouses": ["6cb4109d-7391-433a-8e39-11c49cc5c751"]
+    }
+  },
+  {
+    "id": "29dfc946-2876-46eb-b4fd-a3ba47503912",
+    "data": {
+      "gender": "F",
+      "first name": "Namrah",
+      "last name": "binte Abbas",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "025193a5-5146-4ff0-91d3-5ab0506d85df",
+      "mother": "9d4f1055-471b-4162-a7fa-37265838ea5c"
+    }
+  },
+  {
+    "id": "6cb4109d-7391-433a-8e39-11c49cc5c751",
+    "data": {
+      "gender": "M",
+      "first name": "M Hasaan",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["fce4f269-c977-49fa-a515-a8d1259e896f"],
+      "children": []
+    }
+  },
+  {
+    "id": "uzma-1",
+    "data": {
+      "gender": "F",
+      "first name": "Uzma",
+      "last name": "Tabassum",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shohaib-1",
+      "mother": "nafis-1",
+      "spouses": ["yousuf-1", "azmat-1"],
+      "children": ["sana-1", "sameen-1", "sidra-1", "taha-1"]
+    }
+  },
+  {
+    "id": "yousuf-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir",
+      "last name": "Yousuf",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["uzma-1"]
+    }
+  },
+  {
+    "id": "azmat-1",
+    "data": {
+      "gender": "M",
+      "first name": "Azmat",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["uzma-1"]
+    }
+  },
+  {
+    "id": "sana-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sana",
+      "last name": "Zafar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "uzma-1",
+      "father": "azmat-1",
+      "spouses": ["zafar-1"],
+      "children": ["esa-1"]
+    }
+  },
+  {
+    "id": "zafar-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zafar",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["sana-1"],
+      "children": ["esa-1"]
+    }
+  },
+  {
+    "id": "esa-1",
+    "data": {
+      "gender": "M",
+      "first name": "Esa",
+      "last name": "Zafar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sana-1",
+      "father": "zafar-1"
+    }
+  },
+  {
+    "id": "sameen-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sameen",
+      "last name": "Taha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "uzma-1",
+      "father": "azmat-1",
+      "spouses": ["taha-1"],
+      "children": ["zaidan-1", "sara-1"]
+    }
+  },
+  {
+    "id": "taha-1",
+    "data": {
+      "gender": "M",
+      "first name": "Taha",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["sameen-1"],
+      "children": ["zaidan-1", "sara-1"]
+    }
+  },
+  {
+    "id": "zaidan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zaidan",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sameen-1",
+      "father": "taha-1"
+    }
+  },
+  {
+    "id": "sara-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sara",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sameen-1",
+      "father": "taha-1"
+    }
+  },
+  {
+    "id": "sidra-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sidra",
+      "last name": "Sohaib",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "uzma-1",
+      "father": "azmat-1",
+      "spouses": ["zaid-1"],
+      "children": ["yousuf-2"]
+    }
+  },
+  {
+    "id": "zaid-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zaid",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["sidra-1"],
+      "children": ["yousuf-2"]
+    }
+  },
+  {
+    "id": "yousuf-2",
+    "data": {
+      "gender": "M",
+      "first name": "Yousuf",
+      "last name": "Zaid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sidra-1",
+      "father": "zaid-1"
+    }
+  },
+  {
+    "id": "taha-1",
+    "data": {
+      "gender": "M",
+      "first name": "Taha",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "uzma-1",
+      "father": "azmat-1",
+      "spouses": []
+    }
+  },
+  {
+    "id": "aamir-1",
+    "data": {
+      "gender": "M",
+      "first name": "Aamir ",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shohaib-1",
+      "mother": "nafis-1",
+      "spouses": ["shabana-1"]
+    }
+  },
+  {
+    "id": "shabana-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shabana",
+      "last name": "Aamir",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["aamir-1"],
+      "children": ["areeb-1", "ateeb-1", "rimsha-1"]
+    }
+  },
+  {
+    "id": "areeb-1",
+    "data": {
+      "gender": "M",
+      "first name": "Areeb",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "aamir-1",
+      "mother": "shabana-1",
+      "spouses": ["wardha-1"],
+      "children": ["abeeha-1", "jazim-1", "zavier-1"]
+    }
+  },
+  {
+    "id": "wardha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Wardha",
+      "last name": "Areeb",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["areeb-1"],
+      "children": ["abeeha-1", "jazim-1", "zavier-1"]
+    }
+  },
+  {
+    "id": "abeeha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Abeeha",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "areeb-1",
+      "mother": "wardha-1"
+    }
+  },
+  {
+    "id": "jazim-1",
+    "data": {
+      "gender": "M",
+      "first name": "Jazim",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "areeb-1",
+      "mother": "wardha-1"
+    }
+  },
+  {
+    "id": "zavier-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zavier",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "areeb-1",
+      "mother": "wardha-1"
+    }
+  },
+  {
+    "id": "ateeb-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ateeb",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "aamir-1",
+      "mother": "shabana-1",
+      "spouses": ["iqra-1"],
+      "children": ["ayzel-1"]
+    }
+  },
+  {
+    "id": "iqra-1",
+    "data": {
+      "gender": "F",
+      "first name": "Iqra",
+      "last name": "Ateeb",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["ateeb-1"],
+      "children": ["ayzel-1"]
+    }
+  },
+  {
+    "id": "ayzel-1",
+    "data": {
+      "gender": "F",
+      "first name": "Ayzel",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ateeb-1",
+      "mother": "iqra-1"
+    }
+  },
+  {
+    "id": "rimsha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Rimsha",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "aamir-1",
+      "mother": "shabana-1",
+      "spouses": ["ali-1", "obaid-1"],
+      "children": ["hassan-1"]
+    }
+  },
+  {
+    "id": "obaid-1",
+    "data": {
+      "gender": "M",
+      "first name": "Obaid",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["rimsha-1"]
+    }
+  },
+  {
+    "id": "ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["rimsha-1"]
+    }
+  },
+  {
+    "id": "hassan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Hasan",
+      "last name": "Ali",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "rimsha-1",
+      "father": "ali-1"
+    }
+  },
+  {
+    "id": "8d3ad4e1-c5c6-4322-a223-d129a8a6904a",
+    "data": {
+      "gender": "M",
+      "first name": "Sharique",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shohaib-1",
+      "mother": "nafis-1",
+      "spouses": ["2ae91faf-bf70-44b3-ba68-9c27b5b6f9f5"],
+      "children": [
+        "a31a817f-64cc-438d-820d-0595f62598a1",
+        "35fce353-7482-4dbe-aa3c-6ef1fce1857b",
+        "969c2482-f99f-4a4b-b0cf-0ef7e57c1bcf",
+        "00c7cd4a-526d-4480-9240-ee54b6f845a1"
+      ]
+    }
+  },
+  {
+    "id": "2ae91faf-bf70-44b3-ba68-9c27b5b6f9f5",
+    "data": {
+      "gender": "F",
+      "first name": "Rabia",
+      "last name": "Sharique",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["8d3ad4e1-c5c6-4322-a223-d129a8a6904a"],
+      "children": [
+        "a31a817f-64cc-438d-820d-0595f62598a1",
+        "35fce353-7482-4dbe-aa3c-6ef1fce1857b",
+        "969c2482-f99f-4a4b-b0cf-0ef7e57c1bcf",
+        "00c7cd4a-526d-4480-9240-ee54b6f845a1"
+      ]
+    }
+  },
+  {
+    "id": "a31a817f-64cc-438d-820d-0595f62598a1",
+    "data": {
+      "gender": "M",
+      "first name": "Arhab",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "8d3ad4e1-c5c6-4322-a223-d129a8a6904a",
+      "mother": "2ae91faf-bf70-44b3-ba68-9c27b5b6f9f5"
+    }
+  },
+  {
+    "id": "35fce353-7482-4dbe-aa3c-6ef1fce1857b",
+    "data": {
+      "gender": "F",
+      "first name": "Jabeera",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "8d3ad4e1-c5c6-4322-a223-d129a8a6904a",
+      "mother": "2ae91faf-bf70-44b3-ba68-9c27b5b6f9f5"
+    }
+  },
+  {
+    "id": "969c2482-f99f-4a4b-b0cf-0ef7e57c1bcf",
+    "data": {
+      "gender": "F",
+      "first name": "Pashmina",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2ae91faf-bf70-44b3-ba68-9c27b5b6f9f5",
+      "mother": "8d3ad4e1-c5c6-4322-a223-d129a8a6904a"
+    }
+  },
+  {
+    "id": "00c7cd4a-526d-4480-9240-ee54b6f845a1",
+    "data": {
+      "gender": "F",
+      "first name": "Washma",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "2ae91faf-bf70-44b3-ba68-9c27b5b6f9f5",
+      "mother": "8d3ad4e1-c5c6-4322-a223-d129a8a6904a"
+    }
+  }
 ]
