@@ -69,7 +69,7 @@
         "rels": {
             "father": "fareed-1",
             "mother": "sajid-1",
-            "children": []
+            "children": ["0"]
         }
     },
     {
