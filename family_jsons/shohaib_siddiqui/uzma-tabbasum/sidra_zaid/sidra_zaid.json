@@ -1,0 +1,45 @@
+[
+  {
+    "id": "sidra-zaid-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sidra",
+      "last name": "Sohaib",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "uzma-tabbasum-1",
+      "father": "azmat-uzma-1",
+      "spouses": ["zaid-sidra-1"]
+    }
+  },
+  {
+    "id": "zaid-sidra-1",
+    "data": {
+      "gender": "M",
+      "first name": "Zaid",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["sidra-zaid-1"],
+      "children": ["yousuf-zaid-1"]
+    }
+  },
+  {
+    "id": "yousuf-zaid-1",
+    "data": {
+      "gender": "M",
+      "first name": "Yousuf",
+      "last name": "Zaid",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "sidra-zaid-1",
+      "father": "zaid-sidra-1"
+    }
+  }
+]

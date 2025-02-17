@@ -1,0 +1,87 @@
+[
+  {
+    "id": "sabiha-abbas-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sabiha ",
+      "last name": "Abbas",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "afzaal-siddiqui-1",
+      "mother": "asiya-khatoon-1",
+      "spouses": ["imran-abbas-1"]
+    }
+  },
+  {
+    "id": "imran-abbas-1",
+    "data": {
+      "gender": "M",
+      "first name": "Imran",
+      "last name": "Abbasi",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["sabiha-abbas-1"],
+      "children": ["javeria-abbasi-1", "zainab-hasaan-1", "namrah-abbasi-1"]
+    }
+  },
+  {
+    "id": "javeria-abbasi-1",
+    "data": {
+      "gender": "F",
+      "first name": "Javeria",
+      "last name": "Binte Abbas",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+        "father": "imran-abbas-1",
+        "mother": "sabiha-abbas-1"
+    }
+  },
+  {
+    "id": "zainab-hasaan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Zainab",
+      "last name": "Binte Abbas",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "imran-abbas-1",
+      "mother": "sabiha-abbas-1",
+      "spouses": ["hasaan-zainab-1"]
+    }
+  },
+  {
+    "id": "namrah-abbasi-1",
+    "data": {
+      "gender": "F",
+      "first name": "Namrah",
+      "last name": "binte Abbas",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+        "father": "imran-abbas-1",
+        "mother": "sabiha-abbas-1"
+    }
+  },
+  {
+    "id": "hasaan-zainab-1",
+    "data": {
+      "gender": "M",
+      "first name": "M Hasaan",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["zainab-hasaan-1"]
+    }
+  }
+]

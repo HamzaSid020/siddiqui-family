@@ -1,0 +1,45 @@
+[
+    {
+        "id": "rizwan-siddiqui-1",
+        "data": {
+          "gender": "M",
+          "first name": "Rizwan",
+          "last name": "Ahmed Siddiqui",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "father": "rasheed-siddiqui-1",
+          "mother": "sarwar-rasheed--1",
+          "spouses": [],
+          "children": ["alisha-hamza-1"]
+        }
+      },
+      {
+        "id": "alisha-hamza-1",
+        "data": {
+          "gender": "F",
+          "first name": "Alisha",
+          "last name": "Hamza",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "father": "rizwan-siddiqui-1",
+          "spouses": ["hamza-alisha-2"]
+        }
+      },
+      {
+        "id": "hamza-alisha-2",
+        "data": {
+          "gender": "M",
+          "first name": "Hamza",
+          "last name": "",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "spouses": ["alisha-hamza-1"]
+        }
+      }
+]
