@@ -1,0 +1,159 @@
+[
+  {
+    "id": "mir-nasir-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Nasir Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "baqir-ali-1",
+      "mother": "waseeqa-baqir-1",
+      "spouses": ["nazneen-nasir-1"]
+    }
+  },
+  {
+    "id": "nazneen-nasir-1",
+    "data": {
+      "gender": "F",
+      "first name": "Nazneen",
+      "last name": "Nasir",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-nasir-ali-1"],
+      "children": ["mir-arsalan-ali-1", "mir-yazdan-ali-1", "madiha-talha-1"]
+    }
+  },
+  {
+    "id": "mir-arsalan-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Arsalan Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-nasir-ali-1",
+      "mother": "nazneen-nasir-1",
+      "spouses": ["batool-arsalan-1"]
+    }
+  },
+  {
+    "id": "batool-arsalan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Batool",
+      "last name": "Arsalan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-arsalan-ali-1"]
+    }
+  },
+  {
+    "id": "mir-yazdan-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Yazdan Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-nasir-ali-1",
+      "mother": "nazneen-nasir-1",
+      "spouses": ["maryum-yazdan-1"]
+    }
+  },
+  {
+    "id": "maryum-yazdan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Maryum",
+      "last name": "Yazdan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-yazdan-ali-1"],
+      "children": ["zaina-yazdan-1", "zara-yazdan-1"]
+    }
+  },
+  {
+    "id": "zaina-yazdan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Zaina",
+      "last name": "Yazdan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-yazdan-ali-1",
+      "mother": "maryum-yazdan-1"
+    }
+  },
+  {
+    "id": "zara-yazdan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Zara",
+      "last name": "Yazdan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-yazdan-ali-1",
+      "mother": "maryum-yazdan-1"
+    }
+  },
+  {
+    "id": "madiha-talha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Madiha",
+      "last name": "Talha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-nasir-ali-1",
+      "mother": "nazneen-nasir-1",
+      "spouses": ["talha-siddiqui-1"],
+      "children": ["emaan-talha-1"]
+    }
+  },
+  {
+    "id": "talha-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Talha",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["madiha-talha-1"]
+    }
+  },
+  {
+    "id": "emaan-talha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Emaan",
+      "last name": "Talha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "talha-siddiqui-1",
+      "mother": "madiha-talha-1"
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "shahgufta-warsi-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shahgufta",
+      "last name": "Warsi",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-baqir-1",
+      "father": "baqir-ali-1",
+      "spouses": ["irfan-warsi-1"]
+    }
+  },
+  {
+    "id": "irfan-warsi-1",
+    "data": {
+      "gender": "M",
+      "first name": "Irfan",
+      "last name": "Warsi",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shahgufta-warsi-1"],
+      "children": ["saqib-irfan-1", "maryam-irfan-2"]
+    }
+  },
+  {
+    "id": "saqib-irfan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Saqib",
+      "last name": "Irfan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "irfan-warsi-1",
+      "mother": "shahgufta-warsi-1"
+    }
+  },
+  {
+    "id": "maryam-irfan-2",
+    "data": {
+      "gender": "F",
+      "first name": "Maryam",
+      "last name": "Irfan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "irfan-warsi-1",
+      "mother": "shahgufta-warsi-1"
+    }
+  }
+]

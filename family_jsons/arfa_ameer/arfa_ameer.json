@@ -1,0 +1,32 @@
+[
+  {
+    "id": "arfa-ameer-1",
+    "data": {
+      "gender": "F",
+      "first name": "Arfa",
+      "last name": "Ameer",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-siddiqui-1",
+      "mother": "sajid-un-nisa-1",
+      "spouses": ["ameer-arfa-1"],
+      "children": []
+    }
+  },
+  {
+    "id": "ameer-arfa-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ameer",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["arfa-ameer-1"],
+      "children": []
+    }
+  }
+]

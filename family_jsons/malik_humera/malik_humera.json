@@ -1,0 +1,30 @@
+[
+  {
+    "id": "malka-humera-1",
+    "data": {
+      "gender": "F",
+      "first name": "Malka",
+      "last name": "Humera",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-siddiqui-1",
+      "mother": "sajid-un-nisa-1",
+      "spouses": ["inam-durrani-1"]
+    }
+  },
+  {
+    "id": "inam-durrani-1",
+    "data": {
+      "gender": "M",
+      "first name": "Inam",
+      "last name": "Durrani",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["malka-humera-1"]
+    }
+  }
+]
