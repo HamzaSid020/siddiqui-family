@@ -32,8 +32,8 @@ jobs:
         git add data-siddiqui-family1.json
         git commit -m "Update merged JSON file" -a || echo "No changes to commit"
     
-    - name: Push changes
-      uses: ad-m/github-push-action@main
+ - name: Push changes
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        branch: main  # Explicitly set your branch
