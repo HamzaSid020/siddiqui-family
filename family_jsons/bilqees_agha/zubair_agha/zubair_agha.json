@@ -1,0 +1,87 @@
+[
+  {
+    "id": "mir-zubair-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Zubair Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-agha-1",
+      "spouses": ["erum-zubair-1"]
+    }
+  },
+  {
+    "id": "erum-zubair-1",
+    "data": {
+      "gender": "F",
+      "first name": "Erum",
+      "last name": "Zubair",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-zubair-1"],
+      "children": ["mir-muntasir-1", "maria-zubair-1", "aleena-zubair-1", "mir-umer-1"]
+    }
+  },
+  {
+    "id": "mir-muntasir-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Muntasir",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-zubair-1",
+      "mother": "erum-zubair-1"
+    }
+  },
+  {
+    "id": "maria-zubair-1",
+    "data": {
+      "gender": "F",
+      "first name": "Maria",
+      "last name": "Zubair",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-zubair-1",
+      "mother": "erum-zubair-1"
+    }
+  },
+  {
+    "id": "aleena-zubair-1",
+    "data": {
+      "gender": "F",
+      "first name": "Aleena",
+      "last name": "Zubair",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-zubair-1",
+      "mother": "erum-zubair-1"
+    }
+  },
+  {
+    "id": "mir-umer-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Umer Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-zubair-1",
+      "mother": "erum-zubair-1"
+    }
+  }
+]

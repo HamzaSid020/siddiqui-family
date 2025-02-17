@@ -1,0 +1,43 @@
+[ {
+    "id": "mir-tanveer-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Tanveer Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-agha-1",
+      "spouses": ["lubna-tanveer-1"]
+    }
+  },
+  {
+    "id": "lubna-tanveer-1",
+    "data": {
+      "gender": "F",
+      "first name": "Lubna",
+      "last name": "Tanveer",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-tanveer-1"],
+      "children": ["mir-shaheer-1", "mir-sonu-1"]
+    }
+  },
+  {
+    "id": "mir-sonu-1",
+    "data": {
+      "gender": "M",
+      "first name": "Sonu",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-tanveer-1",
+      "mother": "lubna-tanveer-1"
+    }
+  }]
