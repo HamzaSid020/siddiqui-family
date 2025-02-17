@@ -1,0 +1,59 @@
+[
+    {
+        "id": "furqan-siddiqui-1",
+        "data": {
+          "gender": "M",
+          "first name": "Furqan",
+          "last name": "",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "father": "ammar-ashqa-1",
+          "mother": "ashqa-anwar-1",
+          "spouses": ["shumaila-furqan-1"]
+        }
+      },
+      {
+        "id": "shumaila-furqan-1",
+        "data": {
+          "gender": "F",
+          "first name": "Shumaila",
+          "last name": "Furqan",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "spouses": ["furqan-siddiqui-1"],
+          "children": ["rija-furqan-1", "ammar-furqan-1"]
+        }
+      },
+      {
+        "id": "rija-furqan-1",
+        "data": {
+          "gender": "F",
+          "first name": "Rija",
+          "last name": "",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "father": "furqan-siddiqui-1",
+          "mother": "shumaila-furqan-1"
+        }
+      },
+      {
+        "id": "ammar-furqan-1",
+        "data": {
+          "gender": "M",
+          "first name": "Ammar",
+          "last name": "",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "father": "furqan-siddiqui-1",
+          "mother": "shumaila-furqan-1"
+        }
+      }
+]

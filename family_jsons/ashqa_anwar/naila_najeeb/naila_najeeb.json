@@ -1,0 +1,59 @@
+[
+  {
+    "id": "naila-najeeb-1",
+    "data": {
+      "gender": "F",
+      "first name": "Naila",
+      "last name": "Najeeb",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-ashqa-1",
+      "mother": "ashqa-anwar-1",
+      "spouses": ["najeeb-naila-1"]
+    }
+  },
+  {
+    "id": "najeeb-naila-1",
+    "data": {
+      "gender": "M",
+      "first name": "Najeeb",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["naila-najeeb-1"],
+      "children": ["khadijah-bilal-1", "ifra-najeeb-1", "bazil-najeeb-1"]
+    }
+  },
+  {
+    "id": "ifra-najeeb-1",
+    "data": {
+      "gender": "F",
+      "first name": "Ifra",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "najeeb-naila-1",
+      "mother": "naila-najeeb-1"
+    }
+  },
+  {
+    "id": "bazil-najeeb-1",
+    "data": {
+      "gender": "M",
+      "first name": "Bazil",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "najeeb-naila-1",
+      "mother": "naila-najeeb-1"
+    }
+  }
+]
