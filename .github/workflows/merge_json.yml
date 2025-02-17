@@ -29,7 +29,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add merged_family_tree.json
+        git data-siddiqui-family-1.json
         git commit -m "Update merged JSON file" -a || echo "No changes to commit"
     
     - name: Push changes
