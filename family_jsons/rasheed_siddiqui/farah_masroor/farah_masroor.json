@@ -1,0 +1,102 @@
+[
+  {
+    "id": "farah-masroor-1",
+    "data": {
+      "gender": "F",
+      "first name": "Farah",
+      "last name": "Masroor",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rasheed-siddiqui-1",
+      "mother": "sarwar-rasheed--1",
+      "spouses": ["masroor-farah-1"]
+    }
+  },
+  {
+    "id": "masroor-farah-1",
+    "data": {
+      "gender": "M",
+      "first name": "Masroor",
+      "last name": "Ali",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["farah-masroor-1"],
+      "children": ["ahsan-masroor-1", "mohsin-masroor-1", "noman-masroor-1"]
+    }
+  },
+  {
+    "id": "ahsan-masroor-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ahsan",
+      "last name": "Masroor",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "masroor-farah-1",
+      "mother": "farah-masroor-1",
+      "spouses": ["sana-ahsan-1"]
+    }
+  },
+  {
+    "id": "sana-ahsan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sana",
+      "last name": "Ahsan",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["ahsan-masroor-1"]
+    }
+  },
+  {
+    "id": "mohsin-masroor-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mohsin",
+      "last name": "Masroor",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "masroor-farah-1",
+      "mother": "farah-masroor-1",
+      "spouses": ["safa-mohsin-1"]
+    }
+  },
+  {
+    "id": "safa-mohsin-1",
+    "data": {
+      "gender": "F",
+      "first name": "Safa",
+      "last name": "Mohsin",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mohsin-masroor-1"]
+    }
+  },
+  {
+    "id": "noman-masroor-1",
+    "data": {
+      "gender": "M",
+      "first name": "Noman",
+      "last name": "Masroor",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "masroor-farah-1",
+      "mother": "farah-masroor-1",
+      "spouses": []
+    }
+  }
+]

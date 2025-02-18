@@ -1,0 +1,73 @@
+[
+  {
+    "id": "salman-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Salman",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-ashqa-1",
+      "mother": "ashqa-anwar-1",
+      "spouses": ["beenish-salman-1"]
+    }
+  },
+  {
+    "id": "beenish-salman-1",
+    "data": {
+      "gender": "F",
+      "first name": "Beenish",
+      "last name": "Salman",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["salman-siddiqui-1"],
+      "children": ["kubra-salman-1", "ahmed-salman-1","maazin-salman-1"]
+    }
+  },
+  {
+    "id": "kubra-salman-1",
+    "data": {
+      "gender": "F",
+      "first name": "Kubra",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "salman-siddiqui-1",
+      "mother": "beenish-salman-1"
+    }
+  },
+  {
+    "id": "ahmed-salman-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ahmed",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "salman-siddiqui-1",
+      "mother": "beenish-salman-1"
+    }
+  },
+  {
+    "id": "maazin-salman-1",
+    "data": {
+      "gender": "M",
+      "first name": "Maazin",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "salman-siddiqui-1",
+      "mother": "beenish-salman-1"
+    }
+  }
+]

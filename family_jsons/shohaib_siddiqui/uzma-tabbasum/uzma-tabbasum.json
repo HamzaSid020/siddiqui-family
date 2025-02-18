@@ -1,0 +1,59 @@
+[
+  {
+    "id": "uzma-tabbasum-1",
+    "data": {
+      "gender": "F",
+      "first name": "Uzma",
+      "last name": "Tabassum",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "shohaib-siddiqui-1",
+      "mother": "nafis-un-nisa-1",
+      "spouses": ["yousuf-uzma-1", "azmat-uzma-1"]
+    }
+  },
+  {
+    "id": "yousuf-uzma-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir",
+      "last name": "Yousuf",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["uzma-tabbasum-1"]
+    }
+  },
+  {
+    "id": "azmat-uzma-1",
+    "data": {
+      "gender": "M",
+      "first name": "Azmat",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["uzma-tabbasum-1"],
+      "children": ["sana-zafar-1", "sameen-taha-1", "sidra-zaid-1", "taha-azmat-1"]
+    }
+  },
+  {
+    "id": "taha-azmat-1",
+    "data": {
+      "gender": "M",
+      "first name": "Taha",
+      "last name": "Azmat",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "uzma-tabbasum-1",
+      "father": "azmat-uzma-1",
+      "spouses": []
+    }
+  }
+]

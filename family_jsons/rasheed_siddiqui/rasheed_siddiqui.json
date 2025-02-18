@@ -1,0 +1,31 @@
+[
+    {
+        "id": "rasheed-siddiqui-1",
+        "data": {
+          "gender": "M",
+          "first name": "Rasheed",
+          "last name": "Ahmed Siddiqui",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "father": "fareed-siddiqui-1",
+          "mother": "sajid-un-nisa-1",
+          "spouses": ["sarwar-rasheed--1"]
+        }
+      },
+      {
+        "id": "sarwar-rasheed--1",
+        "data": {
+          "gender": "F",
+          "first name": "Sarwar",
+          "last name": "Rasheed",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "spouses": ["rasheed-siddiqui-1"],
+          "children": ["aftab-siddiqui-1", "farah-masroor-1", "rizwan-siddiqui-1"]
+        }
+      }
+]
