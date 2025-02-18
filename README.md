@@ -5,6 +5,25 @@ This interactive family tree visualizes the genealogy of the **Siddiqui family**
 ## 📜 About  
 The **Siddiqui Family Tree** is a web-based visualization that displays family members and their relationships. It uses a **force-directed graph layout** to position family members and show connections between them.  
 
+## 👨‍👩‍👧‍👦 Generations
+
+### First Generation  
+- Fareed Ahmed Siddiqui
+
+### Second Generation  
+- Saeed Siddiqui
+- Malka Humera
+- Aliya Begum
+- Shohaib Siddiqui
+- Rasheed Siddiqui
+- Waseeqa Baqir
+- Afzaal Siddiqui
+= Arfa Ameer
+- Bilqees Agha
+- Ashqa Wali
+- Arif Siddiqui
+- Shehnaz Shahid
+
 ## ✨ Features  
 ✅ **Interactive visualization** of family relationships  
 ✅ **Zoom & pan functionality** to explore different parts of the tree  
