@@ -1,0 +1,31 @@
+[
+    {
+      "id": "husband-ruqsana-1",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["ruqsana-siddiqui-1"],
+        "children": []
+      }
+    },
+    {
+      "id": "ruqsana-siddiqui-1",
+      "data": {
+        "gender": "F",
+        "first name": "Ruqsana",
+        "last name": "Siddiqui",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "saeed-siddiqui-1",
+        "mother": "sabra-saeed-1",
+        "spouses": ["husband-ruqsana-1"]
+      }
+    }
+  ]

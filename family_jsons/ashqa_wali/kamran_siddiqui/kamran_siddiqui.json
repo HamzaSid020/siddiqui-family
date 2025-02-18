@@ -1,0 +1,73 @@
+[
+  {
+    "id": "kamran-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Kamran",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-ashqa-1",
+      "mother": "ashqa-anwar-1",
+      "spouses": ["shazia-kamran-1"]
+    }
+  },
+  {
+    "id": "shazia-kamran-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shazia",
+      "last name": "Kamran",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["kamran-siddiqui-1"],
+      "children": ["ayan-siddiqui-1", "humna-siddiqui-1", "affan-siddiqui-1"]
+    }
+  },
+  {
+    "id": "ayan-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ayan",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "kamran-siddiqui-1",
+      "mother": "shazia-kamran-1"
+    }
+  },
+  {
+    "id": "humna-siddiqui-1",
+    "data": {
+      "gender": "F",
+      "first name": "Humna",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "kamran-siddiqui-1",
+      "mother": "shazia-kamran-1"
+    }
+  },
+  {
+    "id": "affan-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Affan",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "kamran-siddiqui-1",
+      "mother": "shazia-kamran-1"
+    }
+  }
+]

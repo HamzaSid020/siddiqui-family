@@ -1,0 +1,31 @@
+[
+    {
+      "id": "zafar-pasha-1",
+      "data": {
+        "gender": "M",
+        "first name": "Zafar",
+        "last name": "Pasha",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "ameer-arfa-1",
+        "mother": "arfa-ameer-1",
+        "spouses": ["nazish-zafar-1"]
+      }
+    },
+    {
+      "id": "nazish-zafar-1",
+      "data": {
+        "gender": "F",
+        "first name": "Nazish",
+        "last name": "Zafar",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["zafar-pasha-1"]
+      }
+    }
+  ]
+  

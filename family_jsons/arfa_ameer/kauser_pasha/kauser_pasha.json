@@ -1,0 +1,31 @@
+[
+    {
+      "id": "kauserhusband1",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["kauser-pasha-1"]
+      }
+    },
+    {
+      "id": "kauser-pasha-1",
+      "data": {
+        "gender": "F",
+        "first name": "Kauser",
+        "last name": "Pasha",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "ameer-arfa-1",
+        "mother": "arfa-ameer-1",
+        "spouses": ["kauserhusband1"]
+      }
+    }
+  ]
+  

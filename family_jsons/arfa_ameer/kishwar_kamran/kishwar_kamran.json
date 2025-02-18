@@ -1,0 +1,31 @@
+[
+    {
+      "id": "kamran-kishwar-1",
+      "data": {
+        "gender": "M",
+        "first name": "Kamran",
+        "last name": "",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["kishwar-kamran-1"]
+      }
+    },
+    {
+      "id": "kishwar-kamran-1",
+      "data": {
+        "gender": "F",
+        "first name": "Kishwar",
+        "last name": "Kamran",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "ameer-arfa-1",
+        "mother": "arfa-ameer-1",
+        "spouses": ["kamran-kishwar-1"]
+      }
+    }
+  ]
+  
