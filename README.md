@@ -18,7 +18,7 @@ The **Siddiqui Family Tree** is a web-based visualization that displays family m
 - Rasheed Siddiqui
 - Waseeqa Baqir
 - Afzaal Siddiqui
-= Arfa Ameer
+- Arfa Ameer
 - Bilqees Agha
 - Ashqa Wali
 - Arif Siddiqui
