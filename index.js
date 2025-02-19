@@ -18,14 +18,14 @@ async function createFamilyTree() {
 
         const f3Chart = f3.createChart('#FamilyChart', data)
             .setTransitionTime(2000)
-            .setCardXSpacing(250)
+            .setCardXSpacing(300)
             .setCardYSpacing(125)
             .setOrientationVertical()
             .setSingleParentEmptyCard(true, { label: 'ADD' })
 
         const f3Card = f3Chart.setCard(f3.CardHtml)
-            .setCardDisplay([["first name", "last name"], ["birthday"]])
-            .setCardDim({ "width": 215, "height": 75, "img_x": 7 })
+            .setCardDisplay([["first name","last name"],["birth year","death year"],["occupation"]])
+            .setCardDim({ "width": 250, "height": 75, "img_x": 5 })
             .setMiniTree(true)
             .setStyle('imageRect')
             .setOnHoverPathToMain()
