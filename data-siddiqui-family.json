@@ -1408,7 +1408,7 @@
       "gender": "M",
       "first name": "Shohaib",
       "last name": "Ahmed Siddiqui",
-      "avatar": "https://i.imgur.com/3a2TuoW.jpg",
+      "avatar": "https://i.imgur.com/HHOTrZk.jpg",
       "marriage date": "",
       "occupation": "",
       "location": "",
@@ -1461,10 +1461,10 @@
       "gender": "M",
       "first name": "Asif ",
       "last name": "Ahmed Siddiqui",
-      "avatar": "https://i.imgur.com/QEFJ5Z0.jpg",
+      "avatar": "https://i.imgur.com/mrSsq8E.jpg",
       "marriage date": "",
-      "occupation": "",
-      "location": "",
+      "occupation": "Well Intervention Coordinator",
+      "location": "Karachi, Pakistan",
       "birth year": "1965",
       "death year": ""
     }
@@ -1475,10 +1475,10 @@
       "gender": "F",
       "first name": "Erum",
       "last name": "Asif",
-      "avatar": "https://i.imgur.com/LiKj2ul.jpg",
+      "avatar": "https://i.imgur.com/aVU0f64.jpg",
       "marriage date": "",
-      "occupation": "",
-      "location": "",
+      "occupation": "Homemaker",
+      "location": "Karachi, Pakistan",
       "birth year": "1972",
       "death year": ""
     },
@@ -1500,10 +1500,10 @@
       "gender": "M",
       "first name": "Hamza",
       "last name": "Siddiqui",
-      "avatar": "",
+      "avatar": "https://i.imgur.com/J9NoivU.jpg",
       "marriage date": "",
-      "occupation": "",
-      "location": "",
+      "occupation": "Robotic Engineer",
+      "location": "Toronto, Canada",
       "birth year": "2000",
       "death year": ""
     },
@@ -1518,10 +1518,10 @@
       "gender": "M",
       "first name": "Tayyab",
       "last name": "Ahmed Siddiqui",
-      "avatar": "",
+      "avatar": "https://i.imgur.com/O7MOhb5.jpg",
       "marriage date": "",
       "occupation": "",
-      "location": "",
+      "location": "Denton, Texas, USA",
       "birth year": "2004",
       "death year": ""
     },
@@ -1535,11 +1535,11 @@
     "data": {
       "gender": "F",
       "first name": "Hira",
-      "last name": "Siddiqui",
-      "avatar": "",
-      "marriage date": "",
+      "last name": "Hassan",
+      "avatar": "https://i.imgur.com/ZZ5nC8A.jpg",
+      "marriage date": "2023",
       "occupation": "",
-      "location": "",
+      "location": "Lahore, Pakistan",
       "birth year": "1998",
       "death year": ""
     },
@@ -1558,9 +1558,9 @@
       "first name": "M Hasaan",
       "last name": "Saeed",
       "avatar": "",
-      "marriage date": "",
-      "occupation": "",
-      "location": "",
+      "marriage date": "2023",
+      "occupation": "Software Engineer",
+      "location": "Lahore, Pakistan",
       "birth year": "",
       "death year": ""
     },
@@ -1576,7 +1576,7 @@
       "gender": "F",
       "first name": "Samia",
       "last name": "Siddiqui",
-      "avatar": "https://i.imgur.com/caNqu7E.jpg",
+      "avatar": "https://i.imgur.com/OnSm6tQ.jpg",
       "marriage date": "2019",
       "occupation": "Businesswoman",
       "location": "PECHS, Karachi, Pakistan",
@@ -1597,7 +1597,7 @@
       "gender": "M",
       "first name": "Taha",
       "last name": "Ahmed Khan",
-      "avatar": "",
+      "avatar": "https://i.imgur.com/8jBHwE9.jpg",
       "marriage date": "2019",
       "occupation": "Businessman",
       "location": "PECHS, Karachi, Pakistan",
@@ -4086,7 +4086,6 @@
       "gender": "F",
       "first name": "Sabiha ",
       "last name": "Abbas",
-      "birthday": "",
       "avatar": ""
     },
     "rels": {
@@ -4103,7 +4102,6 @@
       "gender": "M",
       "first name": "Imran",
       "last name": "Abbasi",
-      "birthday": "",
       "avatar": ""
     },
     "rels": {
@@ -4123,8 +4121,7 @@
       "gender": "F",
       "first name": "Javeria",
       "last name": "Binte Abbas",
-      "birthday": "",
-      "avatar": ""
+      "avatar": "https://i.imgur.com/ewf4gMN.jpg"
     },
     "rels": {
       "father": "imran-abbas-1",
@@ -4137,7 +4134,6 @@
       "gender": "F",
       "first name": "Zainab",
       "last name": "Binte Abbas",
-      "birthday": "",
       "avatar": ""
     },
     "rels": {
@@ -4154,7 +4150,6 @@
       "gender": "F",
       "first name": "Namrah",
       "last name": "binte Abbas",
-      "birthday": "",
       "avatar": ""
     },
     "rels": {
@@ -4168,7 +4163,6 @@
       "gender": "M",
       "first name": "M Hasaan",
       "last name": "",
-      "birthday": "",
       "avatar": ""
     },
     "rels": {
