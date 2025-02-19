@@ -37,5 +37,6 @@ async function createFamilyTree() {
     createFamilyTree();
 }
 
+
 // Initialize the family tree
 createFamilyTree();
