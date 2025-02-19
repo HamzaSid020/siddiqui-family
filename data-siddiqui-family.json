@@ -8,7 +8,7 @@
       "avatar": "",
       "marriage date": "1930",
       "occupation": "engineer",
-      "location": "Karachi, Pakistan",
+      "location": "Lucknow, India",
       "birth year": "1920",
       "death year": "- 1965"
     },
@@ -27,8 +27,8 @@
       "avatar": "",
       "marriage date": "1930",
       "occupation": "",
-      "location": "Housewife",
-      "birth year": "",
+      "location": "Lucknow, India",
+      "birth year": "1945",
       "death year": ""
     },
     "rels": {
@@ -3111,8 +3111,12 @@
       "gender": "F",
       "first name": "Samia",
       "last name": "Siddiqui",
-      "birthday": "22/01/1996",
-      "avatar": ""
+      "avatar": "https://i.imgur.com/caNqu7E.jpg",
+      "marriage date": "2019",
+      "occupation": "Businesswoman",
+      "location": "PECHS, Karachi, Pakistan",
+      "birth year": "1996",
+      "death year": ""
     },
     "rels": {
       "father": "0",
@@ -3125,11 +3129,15 @@
   {
     "id": "taha-khan-1",
     "data": {
-      "gender": "F",
+      "gender": "M",
       "first name": "Taha",
       "last name": "Ahmed Khan",
-      "birthday": "",
-      "avatar": ""
+      "avatar": "",
+      "marriage date": "2019",
+      "occupation": "Businessman",
+      "location": "PECHS, Karachi, Pakistan",
+      "birth year": "",
+      "death year": ""
     },
     "rels": {
       "spouses": [
@@ -3146,8 +3154,12 @@
       "gender": "M",
       "first name": "Amin",
       "last name": "Ahmed Khan",
-      "birthday": "",
-      "avatar": ""
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "PECHS, Karachi, Pakistan",
+      "birth year": "2023",
+      "death year": ""
     },
     "rels": {
       "father": "taha-khan-1",
