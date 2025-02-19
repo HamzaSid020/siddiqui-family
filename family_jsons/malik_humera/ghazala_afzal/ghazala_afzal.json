@@ -1,0 +1,74 @@
+[
+    {
+      "id": "afzal-ghazala-1",
+      "data": {
+        "gender": "M",
+        "first name": "Afzal",
+        "last name": "",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["ghazala-afzal-1"],
+        "children": ["khurram-afzal-1", "faizan-afzal-1", "afzalson1"]
+      }
+    },
+    {
+      "id": "ghazala-afzal-1",
+      "data": {
+        "gender": "F",
+        "first name": "Ghazal",
+        "last name": "Afzal",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "inam-durrani-1",
+        "mother": "malka-humera-1",
+        "spouses": ["afzal-ghazala-1"]
+      }
+    },
+    {
+      "id": "khurram-afzal-1",
+      "data": {
+        "gender": "M",
+        "first name": "Khurram",
+        "last name": "Afzal",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "afzal-ghazala-1",
+        "mother": "ghazala-afzal-1"
+      }
+    },
+    {
+      "id": "faizan-afzal-1",
+      "data": {
+        "gender": "M",
+        "first name": "Faizan",
+        "last name": "Afzal",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "afzal-ghazala-1",
+        "mother": "ghazala-afzal-1"
+      }
+    },
+    {
+      "id": "afzalson1",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Afzal",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "afzal-ghazala-1",
+        "mother": "ghazala-afzal-1"
+      }
+    }
+  ]
+  

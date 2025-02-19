@@ -1,0 +1,102 @@
+[
+    {
+      "id": "iftikar-shaheena-1",
+      "data": {
+        "gender": "M",
+        "first name": "Iftikar",
+        "last name": "",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["shaheena-iftikar-1"],
+        "children": ["arslan-iftikar-1", "muzaina-iftikar-1", "iftikarson1","iftikarson2","iftikardaughter1"]
+      }
+    },
+    {
+      "id": "shaheena-iftikar-1",
+      "data": {
+        "gender": "F",
+        "first name": "Shaheena",
+        "last name": "Iftikar",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "inam-durrani-1",
+        "mother": "malka-humera-1",
+        "spouses": ["iftikar-shaheena-1"]
+      }
+    },
+    {
+      "id": "arslan-iftikar-1",
+      "data": {
+        "gender": "M",
+        "first name": "Arslan",
+        "last name": "Iftikar",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "iftikar-shaheena-1",
+        "mother": "shaheena-iftikar-1"
+      }
+    },
+    {
+      "id": "muzaina-iftikar-1",
+      "data": {
+        "gender": "F",
+        "first name": "Muzaina",
+        "last name": "Iftikar",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "iftikar-shaheena-1",
+        "mother": "shaheena-iftikar-1"
+      }
+    },
+    {
+      "id": "iftikarson1",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Iftikar",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "iftikar-shaheena-1",
+        "mother": "shaheena-iftikar-1"
+      }
+    },
+    {
+      "id": "iftikarson2",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Iftikar",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "iftikar-shaheena-1",
+        "mother": "shaheena-iftikar-1"
+      }
+    },
+    {
+      "id": "iftikardaughter1",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Iftikar",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "iftikar-shaheena-1",
+        "mother": "shaheena-iftikar-1"
+      }
+    }
+  ]
+  

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mir-asfar-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Asfar Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-azghar-1",
+      "mother": "bilqees-agha-1",
+      "spouses": ["sara-asfar-1"]
+    }
+  },
+  {
+    "id": "sara-asfar-1",
+    "data": {
+      "gender": "F",
+      "first name": "Sara",
+      "last name": "Asfar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-asfar-1"]
+    }
+  }
+]

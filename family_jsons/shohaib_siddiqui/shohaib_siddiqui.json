@@ -1,0 +1,44 @@
+[
+  {
+    "id": "shohaib-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Shohaib",
+      "last name": "Ahmed Siddiqui",
+      "avatar": "https://i.imgur.com/3a2TuoW.jpg",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "spouses": ["nafis-un-nisa-1"],
+      "father": "fareed-siddiqui-1",
+      "mother": "sajid-un-nisa-1"
+    }
+  },
+  {
+    "id": "nafis-un-nisa-1",
+    "data": {
+      "gender": "F",
+      "first name": "Nafis",
+      "last name": "Un Nisa",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "children": [
+        "0",
+        "uzma-tabbasum-1",
+        "aamir-siddiqui-1",
+        "sharique-siddiqui-1"
+      ],
+      "spouses": ["shohaib-siddiqui-1"]
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "khadijah-bilal-1",
+    "data": {
+      "gender": "F",
+      "first name": "Khadijah",
+      "last name": "Bilal",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "najeeb-naila-1",
+      "mother": "naila-najeeb-1",
+      "spouses": ["bilal-khadijah-1"]
+    }
+  },
+  {
+    "id": "bilal-khadijah-1",
+    "data": {
+      "gender": "M",
+      "first name": "Bilal",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["khadijah-bilal-1"],
+      "children": ["yahya-bilal-1"]
+    }
+  },
+  {
+    "id": "yahya-bilal-1",
+    "data": {
+      "gender": "M",
+      "first name": "Yahya",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "bilal-khadijah-1",
+      "mother": "khadijah-bilal-1"
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[{
+    "id": "mir-shaheer-1",
+    "data": {
+      "gender": "M",
+      "first name": "Shaheer Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-tanveer-1",
+      "mother": "lubna-tanveer-1",
+      "spouses": ["areeba-shaheer-1"]
+    }
+  },
+  {
+    "id": "areeba-shaheer-1",
+    "data": {
+      "gender": "F",
+      "first name": "Areeba",
+      "last name": "Shaheer",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-shaheer-1"],
+      "children": ["mir-haider-1", "mir-mirha-1"]
+    }
+  },
+  {
+    "id": "mir-haider-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Haider",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-shaheer-1",
+      "mother": "areeba-shaheer-1"
+    }
+  },
+  {
+    "id": "mir-mirha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Mir Mirha",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-shaheer-1",
+      "mother": "areeba-shaheer-1"
+    }
+  }]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "0",
+    "rels": {
+      "spouses": ["erum-asif-1"],
+      "father": "shohaib-siddiqui-1",
+      "mother": "nafis-un-nisa-1"
+    },
+    "data": {
+      "gender": "M",
+      "first name": "Asif ",
+      "last name": "Ahmed Siddiqui",
+      "avatar": "https://i.imgur.com/QEFJ5Z0.jpg",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "1965",
+      "death year": ""
+    }
+  },
+  {
+    "id": "erum-asif-1",
+    "data": {
+      "gender": "F",
+      "first name": "Erum",
+      "last name": "Asif",
+      "avatar": "https://i.imgur.com/LiKj2ul.jpg",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "1972",
+      "death year": ""
+    },
+    "rels": {
+      "spouses": ["0"],
+      "children": [
+        "hamza-siddiqui-1",
+        "samia-taha-1",
+        "tayyab-siddiqui-1",
+        "hira-hasaan-1"
+      ]
+    }
+  },
+  {
+    "id": "hamza-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Hamza",
+      "last name": "Siddiqui",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "2000",
+      "death year": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-asif-1"
+    }
+  },
+  {
+    "id": "tayyab-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Tayyab",
+      "last name": "Ahmed Siddiqui",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "2004",
+      "death year": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-asif-1"
+    }
+  },
+  {
+    "id": "hira-hasaan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Hira",
+      "last name": "Siddiqui",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "1998",
+      "death year": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-asif-1",
+      "spouses": ["hasaan-saeed-1"]
+    }
+  },
+  {
+    "id": "hasaan-saeed-1",
+    "data": {
+      "gender": "M",
+      "first name": "M Hasaan",
+      "last name": "Saeed",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "spouses": ["hira-hasaan-1"]
+    }
+  }
+]

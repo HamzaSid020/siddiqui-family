@@ -1,0 +1,49 @@
+[
+  {
+    "id": "arifa-begum-1",
+    "data": {
+      "gender": "F",
+      "first name": "Arifa",
+      "last name": "Begum",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": "1996"
+    },
+    "rels": {
+      "father": "fareed-siddiqui-1",
+      "mother": "sajid-un-nisa-1",
+      "spouses": ["ameer-pasha-1"],
+      "children": []
+    }
+  },
+  {
+    "id": "ameer-pasha-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ameer",
+      "last name": "Pasha",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": "1979"
+    },
+    "rels": {
+      "spouses": ["arifa-begum-1"],
+      "children": [
+        "zaheer-pasha-1",
+        "kauser-jabeen-1",
+        "afser-jabeen-1",
+        "nayyer-jabeen-1",
+        "zafar-pasha-1",
+        "azhar-pasha-1",
+        "kishwar-jabeen-1",
+        "khizer-pasha-1"
+      ]
+    }
+  }
+]

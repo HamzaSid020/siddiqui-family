@@ -1,0 +1,31 @@
+[
+  {
+    "id": "nadeem-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Nadeem",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "saeed-siddiqui-1",
+      "mother": "sabra-saeed-1",
+      "spouses": ["wife-nadeem-1"]
+    }
+  },
+  {
+    "id": "wife-nadeem-1",
+    "data": {
+      "gender": "F",
+      "first name": "?",
+      "last name": "Nadeem",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["nadeem-siddiqui-1"],
+      "children": []
+    }
+  }
+]

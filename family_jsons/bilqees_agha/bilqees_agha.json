@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bilqees-agha-1",
+    "data": {
+      "gender": "F",
+      "first name": "Bilqees",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-siddiqui-1",
+      "mother": "sajid-un-nisa-1",
+      "spouses": ["mir-azghar-1"]
+    }
+  },
+  {
+    "id": "mir-azghar-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Azghar Ali",
+      "last name": "Agha",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["bilqees-agha-1"],
+      "children": [
+        "mir-tanveer-1",
+        "farhana-qaisar-1",
+        "mir-asfar-1",
+        "farya-basheer-1",
+        "mir-zubair-1",
+        "shahzia-rashid-1"
+      ]
+    }
+  }
+]
