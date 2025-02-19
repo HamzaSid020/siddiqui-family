@@ -1,0 +1,109 @@
+[
+    {
+      "id": "ashraf-jamaal-1",
+      "data": {
+        "gender": "M",
+        "first name": "Ashraf",
+        "last name": "Jamaal",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["afser-jabeen-1"],
+      "children": [
+        "daughter-ashraf-1",
+        "son-ashraf-1",
+        "son-ashraf-2",
+        "daughter-ashraf-2"
+      ]
+      }
+    },
+    {
+      "id": "afser-jabeen-1",
+      "data": {
+        "gender": "F",
+        "first name": "Afser",
+        "last name": "Jabeen",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "ameer-pasha-1",
+        "mother": "arifa-begum-1",
+        "spouses": ["ashraf-jamaal-1"]
+      }
+    },
+    {
+      "id": "son-ashraf-1",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Ashraf",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "ashraf-jamaal-1",
+        "mother": "afser-jabeen-1"
+      }
+    },
+    {
+      "id": "son-ashraf-2",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Ashraf",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "ashraf-jamaal-1",
+        "mother": "afser-jabeen-1"
+      }
+    },
+    {
+      "id": "daughter-ashraf-2",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Ashraf",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "ashraf-jamaal-1",
+        "mother": "afser-jabeen-1"
+      }
+    },
+    {
+      "id": "daughter-ashraf-1",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Ashraf",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "ashraf-jamaal-1",
+        "mother": "afser-jabeen-1"
+      }
+    }
+  ]
+  

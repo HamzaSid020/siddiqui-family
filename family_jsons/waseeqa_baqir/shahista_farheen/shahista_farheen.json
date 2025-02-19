@@ -1,0 +1,45 @@
+[
+  {
+    "id": "shahista-farheen-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shahista",
+      "last name": "Farheen",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-baqir-1",
+      "father": "baqir-ali-1",
+      "spouses": ["ibrahim-shahista-1"]
+    }
+  },
+  {
+    "id": "ibrahim-shahista-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ibrahim",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["shahista-farheen-1"],
+      "children": ["usman-ibrahim-1"]
+    }
+  },
+  {
+    "id": "usman-ibrahim-1",
+    "data": {
+      "gender": "M",
+      "first name": "Usman",
+      "last name": "Ibrahim",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ibrahim-shahista-1",
+      "mother": "shahista-farheen-1"
+    }
+  }
+]

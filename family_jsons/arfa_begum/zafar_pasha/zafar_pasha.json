@@ -1,0 +1,147 @@
+[
+    {
+      "id": "zafar-pasha-1",
+      "data": {
+        "gender": "M",
+        "first name": "Zafar",
+        "last name": "Azmat Pasha",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "ameer-pasha-1",
+        "mother": "arifa-begum-1",
+        "spouses": ["nazish-pashas-1"]
+      }
+    },
+    {
+      "id": "nazish-pashas-1",
+      "data": {
+        "gender": "F",
+        "first name": "Nazish",
+        "last name": "Pasha",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["zafar-pasha-1"],
+        "children": [
+          "daughter-zafar-1",
+          "daughter-zafar-2",
+          "son-zafar-1",
+          "son-zafar-2",
+          "son-zafar-3",
+          "son-zafar-4"
+        ]
+      }
+    },
+    {
+      "id": "son-zafar-1",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Pasha",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    },
+    {
+      "id": "son-zafar-2",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Pasha",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    },
+    {
+      "id": "son-zafar-3",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Pasha",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    },
+    {
+      "id": "son-zafar-4",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Pasha",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    },
+    {
+      "id": "daughter-zafar-1",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Pasha",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    },
+    {
+      "id": "daughter-zafar-2",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Pasha",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    }
+  ]
+  

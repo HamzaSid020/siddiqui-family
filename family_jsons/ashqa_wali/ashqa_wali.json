@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ashqa-wali-1",
+    "data": {
+      "gender": "F",
+      "first name": "Ashqa",
+      "last name": "Wali",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-siddiqui-1",
+      "mother": "sajid-un-nisa-1",
+      "spouses": ["wali-ashqa-1"]
+    }
+  },
+  {
+    "id": "wali-ashqa-1",
+    "data": {
+      "gender": "M",
+      "first name": "Abdul",
+      "last name": "Wali Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["ashqa-wali-1"],
+      "children": [
+        "naila-najeeb-1",
+        "kamran-siddiqui-1",
+        "furqan-siddiqui-1",
+        "salman-siddiqui-1",
+        "danish-siddiqui-1",
+        "tabish-siddiqui-1",
+        "imran-siddiqui-1",
+        "saima-moin-1"
+      ]
+    }
+  },
+  {
+    "id": "danish-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Danish",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "wali-ashqa-1",
+      "mother": "ashqa-wali-1",
+      "spouses": ["farheen-danish-1"]
+    }
+  },
+  {
+    "id": "farheen-danish-1",
+    "data": {
+      "gender": "F",
+      "first name": "Farheen",
+      "last name": "Danish",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["danish-siddiqui-1"]
+    }
+  }
+]

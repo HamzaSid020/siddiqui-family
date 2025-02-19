@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ashraf-jamal-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ashraf",
+      "last name": "Jamal",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "spouses": ["kauser-jabeen-1"]
+    }
+  },
+  {
+    "id": "kauser-jabeen-1",
+    "data": {
+      "gender": "F",
+      "first name": "Kauser",
+      "last name": "Jabeen",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "father": "ameer-pasha-1",
+      "mother": "arifa-begum-1",
+      "spouses": ["ashraf-jamal-1"],
+      "children": [
+        "daughter-akmal-1",
+        "son-akmal-1",
+        "son-akmal-2"
+      ]
+    }
+  },
+  {
+    "id": "son-akmal-1",
+    "data": {
+      "gender": "M",
+      "first name": "?",
+      "last name": "Akmal",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "father": "ashraf-jamal-1",
+      "mother": "kauser-jabeen-1"
+    }
+  },
+  {
+    "id": "son-akmal-2",
+    "data": {
+      "gender": "M",
+      "first name": "?",
+      "last name": "Akmal",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "father": "ashraf-jamal-1",
+      "mother": "kauser-jabeen-1"
+    }
+  },
+  {
+    "id": "daughter-akmal-1",
+    "data": {
+      "gender": "F",
+      "first name": "?",
+      "last name": "Akmal",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "father": "ashraf-jamal-1",
+      "mother": "kauser-jabeen-1"
+    }
+  }
+]

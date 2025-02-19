@@ -1,0 +1,73 @@
+[
+  {
+    "id": "farhana-qaisar-2",
+    "data": {
+      "gender": "F",
+      "first name": "Farhana",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["mir-qaisar-ali-1"],
+      "children": ["wajeeha-qaisar-2", "amina-qaisar-2", "aqifa-qaisar-2"]
+    }
+  },
+  {
+    "id": "mir-qaisar-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Qaisar Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "waseeqa-baqir-1",
+      "father": "baqir-ali-1",
+      "spouses": ["farhana-qaisar-2"]
+    }
+  },
+  {
+    "id": "wajeeha-qaisar-2",
+    "data": {
+      "gender": "F",
+      "first name": "Wajeeha",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-qaisar-2"
+    }
+  },
+  {
+    "id": "amina-qaisar-2",
+    "data": {
+      "gender": "F",
+      "first name": "Amina",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-qaisar-2"
+    }
+  },
+  {
+    "id": "aqifa-qaisar-2",
+    "data": {
+      "gender": "F",
+      "first name": "Aqifa",
+      "last name": "Qaisar",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "mir-qaisar-ali-1",
+      "mother": "farhana-qaisar-2"
+    }
+  }
+]

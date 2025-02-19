@@ -1,0 +1,45 @@
+[
+  {
+    "id": "afzaal-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Afzaal ",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "fareed-siddiqui-1",
+      "mother": "sajid-un-nisa-1",
+      "spouses": ["asiya-khatoon-1"]
+    }
+  },
+  {
+    "id": "asiya-khatoon-1",
+    "data": {
+      "gender": "F",
+      "first name": "Asiya ",
+      "last name": "Khatoon",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["afzaal-siddiqui-1"],
+      "children": ["khalid-siddiqui-1", "sabiha-abbas-1", "iqbal-siddiqui-1"]
+    }
+  },
+  {
+    "id": "iqbal-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Iqbal",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "afzaal-siddiqui-1",
+      "mother": "asiya-khatoon-1"
+    }
+  }
+]
