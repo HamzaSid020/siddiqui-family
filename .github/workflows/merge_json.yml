@@ -1,4 +1,4 @@
-name: Merge JSON Files
+name: Merge JSON Files & Update Location
 
 on:
   schedule:
