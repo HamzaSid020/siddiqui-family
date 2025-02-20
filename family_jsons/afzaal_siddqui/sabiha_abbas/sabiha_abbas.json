@@ -5,7 +5,8 @@
       "gender": "F",
       "first name": "Sabiha ",
       "last name": "Abbas",
-      "avatar": ""
+      "avatar": "",
+      "location": "Bufferzone, Karachi, Pakistan"
     },
     "rels": {
       "father": "afzaal-siddiqui-1",
@@ -19,7 +20,8 @@
       "gender": "M",
       "first name": "Imran",
       "last name": "Abbasi",
-      "avatar": ""
+      "avatar": "",
+      "location": "Bufferzone, Karachi, Pakistan"
     },
     "rels": {
       "spouses": ["sabiha-abbas-1"],
@@ -32,11 +34,12 @@
       "gender": "F",
       "first name": "Javeria",
       "last name": "Binte Abbas",
-      "avatar": "https://i.imgur.com/ewf4gMN.jpg"
+      "avatar": "https://i.imgur.com/ewf4gMN.jpg",
+      "location": "Bufferzone, Karachi, Pakistan"
     },
     "rels": {
-        "father": "imran-abbas-1",
-        "mother": "sabiha-abbas-1"
+      "father": "imran-abbas-1",
+      "mother": "sabiha-abbas-1"
     }
   },
   {
@@ -45,7 +48,8 @@
       "gender": "F",
       "first name": "Zainab",
       "last name": "Binte Abbas",
-      "avatar": ""
+      "avatar": "",
+      "location": "Bufferzone, Karachi, Pakistan"
     },
     "rels": {
       "father": "imran-abbas-1",
@@ -59,11 +63,12 @@
       "gender": "F",
       "first name": "Namrah",
       "last name": "binte Abbas",
-      "avatar": ""
+      "avatar": "",
+      "location": "Bufferzone, Karachi, Pakistan"
     },
     "rels": {
-        "father": "imran-abbas-1",
-        "mother": "sabiha-abbas-1"
+      "father": "imran-abbas-1",
+      "mother": "sabiha-abbas-1"
     }
   },
   {
@@ -72,7 +77,8 @@
       "gender": "M",
       "first name": "M Hasaan",
       "last name": "",
-      "avatar": ""
+      "avatar": "",
+      "location": "Bufferzone, Karachi, Pakistan"
     },
     "rels": {
       "spouses": ["zainab-hasaan-1"]

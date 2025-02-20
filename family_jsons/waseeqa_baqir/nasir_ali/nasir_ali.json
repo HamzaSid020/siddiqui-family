@@ -5,8 +5,9 @@
       "gender": "M",
       "first name": "Mir Nasir Ali",
       "last name": "",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Whaley Way, Milton, Canada"
     },
     "rels": {
       "father": "baqir-ali-1",
@@ -20,8 +21,9 @@
       "gender": "F",
       "first name": "Nazneen",
       "last name": "Nasir",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Whaley Way, Milton, Canada"
     },
     "rels": {
       "spouses": ["mir-nasir-ali-1"],
@@ -34,8 +36,9 @@
       "gender": "M",
       "first name": "Mir Arsalan Ali",
       "last name": "",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Whaley Way, Milton, Canada"
     },
     "rels": {
       "father": "mir-nasir-ali-1",
@@ -49,8 +52,9 @@
       "gender": "F",
       "first name": "Batool",
       "last name": "Arsalan",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Whaley Way, Milton, Canada"
     },
     "rels": {
       "spouses": ["mir-arsalan-ali-1"]
@@ -62,8 +66,9 @@
       "gender": "M",
       "first name": "Mir Yazdan Ali",
       "last name": "",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Whaley Way, Milton, Canada"
     },
     "rels": {
       "father": "mir-nasir-ali-1",
@@ -77,8 +82,9 @@
       "gender": "F",
       "first name": "Maryum",
       "last name": "Yazdan",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Whaley Way, Milton, Canada"
     },
     "rels": {
       "spouses": ["mir-yazdan-ali-1"],
@@ -91,8 +97,9 @@
       "gender": "F",
       "first name": "Zaina",
       "last name": "Yazdan",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Whaley Way, Milton, Canada"
     },
     "rels": {
       "father": "mir-yazdan-ali-1",
@@ -105,8 +112,9 @@
       "gender": "F",
       "first name": "Zara",
       "last name": "Yazdan",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Whaley Way, Milton, Canada"
     },
     "rels": {
       "father": "mir-yazdan-ali-1",
@@ -119,8 +127,9 @@
       "gender": "F",
       "first name": "Madiha",
       "last name": "Talha",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Wheat Lane, Kitchener, Canada"
     },
     "rels": {
       "father": "mir-nasir-ali-1",
@@ -135,8 +144,9 @@
       "gender": "M",
       "first name": "Talha",
       "last name": "Siddiqui",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Wheat Lane, Kitchener, Canada"
     },
     "rels": {
       "spouses": ["madiha-talha-1"]
@@ -148,8 +158,9 @@
       "gender": "F",
       "first name": "Emaan",
       "last name": "Talha",
-      "birthday": "",
-      "avatar": ""
+      "birth year": "",
+      "avatar": "",
+      "location": "Wheat Lane, Kitchener, Canada"
     },
     "rels": {
       "father": "talha-siddiqui-1",

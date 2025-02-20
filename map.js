@@ -35,7 +35,7 @@ map.addLayer(vectorLayer);
 
 // Helper function to apply small offsets to coordinates
 function applyOffset(lat, lon, index) {
-    const offset = 0.0001 * (index * 2);  // Adjust this value for more or less offset
+    const offset = 0.0001 * (index * 4);  // Adjust this value for more or less offset
     return [lon + offset, lat + offset];
 }
 

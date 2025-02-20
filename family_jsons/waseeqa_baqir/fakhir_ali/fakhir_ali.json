@@ -1,60 +1,75 @@
 [
-    {
-      "id": "pakeeza-fakhir-1",
-      "data": {
-        "gender": "F",
-        "first name": "Pakeeza",
-        "last name": "Fakhir",
-        "birthday": "",
-        "avatar": ""
-      },
-      "rels": {
-        "spouses": ["mir-fakhir-ali-1"],
-        "children": ["taha-ali-1", "fatima-fakhir-1"]
-      }
+  {
+    "id": "pakeeza-fakhir-1",
+    "data": {
+      "gender": "F",
+      "first name": "Pakeeza",
+      "last name": "Fakhir",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "birth year": "",
+      "death year": "",
+      "location": "Whitehorn Ave, Mississauga, Canada"
     },
-    {
-      "id": "mir-fakhir-ali-1",
-      "data": {
-        "gender": "M",
-        "first name": "Mir Fakhir",
-        "last name": "Ali",
-        "birthday": "",
-        "avatar": ""
-      },
-      "rels": {
-        "mother": "waseeqa-baqir-1",
-        "father": "baqir-ali-1",
-        "spouses": ["pakeeza-fakhir-1"]
-      }
-    },
-    {
-      "id": "taha-ali-1",
-      "data": {
-        "gender": "M",
-        "first name": "Mir Taha",
-        "last name": "Ali",
-        "birthday": "",
-        "avatar": ""
-      },
-      "rels": {
-        "father": "mir-fakhir-ali-1",
-        "mother": "pakeeza-fakhir-1"
-      }
-    },
-    {
-      "id": "fatima-fakhir-1",
-      "data": {
-        "gender": "F",
-        "first name": "Fayima",
-        "last name": "Fakhir",
-        "birthday": "",
-        "avatar": ""
-      },
-      "rels": {
-        "father": "mir-fakhir-ali-1",
-        "mother": "pakeeza-fakhir-1"
-      }
+    "rels": {
+      "spouses": ["mir-fakhir-ali-1"],
+      "children": ["taha-ali-1", "fatima-fakhir-1"]
     }
-  ]
-  
+  },
+  {
+    "id": "mir-fakhir-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Fakhir",
+      "last name": "Ali",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "birth year": "",
+      "death year": "",
+      "location": "Whitehorn Ave, Mississauga, Canada"
+    },
+    "rels": {
+      "mother": "waseeqa-baqir-1",
+      "father": "baqir-ali-1",
+      "spouses": ["pakeeza-fakhir-1"]
+    }
+  },
+  {
+    "id": "taha-ali-1",
+    "data": {
+      "gender": "M",
+      "first name": "Mir Taha",
+      "last name": "Ali",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "birth year": "",
+      "death year": "",
+      "location": "Whitehorn Ave, Mississauga, Canada"
+    },
+    "rels": {
+      "father": "mir-fakhir-ali-1",
+      "mother": "pakeeza-fakhir-1"
+    }
+  },
+  {
+    "id": "fatima-fakhir-1",
+    "data": {
+      "gender": "F",
+      "first name": "Fatima",
+      "last name": "Fakhir",
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "birth year": "",
+      "death year": "",
+      "location": "Whitehorn Ave, Mississauga, Canada"
+    },
+    "rels": {
+      "father": "mir-fakhir-ali-1",
+      "mother": "pakeeza-fakhir-1"
+    }
+  }
+]

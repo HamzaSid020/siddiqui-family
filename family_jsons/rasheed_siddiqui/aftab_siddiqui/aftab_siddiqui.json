@@ -5,8 +5,12 @@
       "gender": "M",
       "first name": "Aftab",
       "last name": "Ahmed Siddiqui",
-      "birthday": "",
-      "avatar": ""
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "Hendersonville, Tennessee, USA",
+      "birth year": "",
+      "death year": ""
     },
     "rels": {
       "father": "rasheed-siddiqui-1",
@@ -20,8 +24,12 @@
       "gender": "F",
       "first name": "Charlen",
       "last name": "Aftab",
-      "birthday": "",
-      "avatar": ""
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "Hendersonville, Tennessee, USA",
+      "birth year": "",
+      "death year": ""
     },
     "rels": {
       "spouses": ["aftab-siddiqui-1"],
@@ -34,8 +42,12 @@
       "gender": "F",
       "first name": "Kenzie",
       "last name": "Bost Siddiqui",
-      "birthday": "",
-      "avatar": ""
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "Hendersonville, Tennessee, USA",
+      "birth year": "",
+      "death year": ""
     },
     "rels": {
       "father": "aftab-siddiqui-1",
@@ -48,8 +60,12 @@
       "gender": "F",
       "first name": "Kelly",
       "last name": "Bost Siddiqui",
-      "birthday": "",
-      "avatar": ""
+      "avatar": "",
+      "marriage date": "",
+      "occupation": "",
+      "location": "Hendersonville, Tennessee, USA",
+      "birth year": "",
+      "death year": ""
     },
     "rels": {
       "father": "aftab-siddiqui-1",
