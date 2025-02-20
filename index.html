@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://unpkg.com/family-chart@0.2.1/dist/styles/family-chart.css">
   <link href="https://fonts.googleapis.com/css2?family=Aptos:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css"> <!-- Link to the improved CSS -->
+  <link rel="stylesheet" href="https://cdn.skypack.dev/ol/ol.css">
+  <style>
+      #map { width: 100%; height: 400px; }
+  </style>
 </head>
 <body>
   <!-- Heading for the Family Tree -->
@@ -16,7 +20,8 @@
   
   <!-- Family Tree Chart Container -->
   <div id="FamilyChart" class="f3" style="width:100%;height:900px;margin:auto;background-color:rgb(33,33,33);color:#fff;"></div>
-
+  <div id="map"></div>
+  <script type="module" src="map.js"></script>
   <script type="module" src="index.js"></script>
 </body>
 </html>
