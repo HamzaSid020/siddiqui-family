@@ -8,11 +8,9 @@ on:
       - main  # Trigger on changes to the main branch
     paths:
       - '**/*.json'  # Trigger if any JSON files are changed
-    # Ensure only changes from the repository owner or contributors trigger the action
-    # You can specify users by their GitHub username here (or add more users as needed)
     authors:
-      - 'hamzasid020'
-  workflow_dispatch:  # Keep this to allow manual triggers
+      - 'hamzasid020'  # Trigger if changes are made by 'hamzasid020'
+  workflow_dispatch:  # Allow manual triggers
 
 jobs:
   merge-json:
@@ -34,14 +32,8 @@ jobs:
     - name: Run merge script
       run: python mergeJson.py  # First, run mergeJson.py to update data-siddiqui-family.json and locations.json
 
-    - name: Check for changes in locations.json
-      id: check_locations
-      run: |
-        git diff --exit-code locations.json || echo "locations.json has changed"
-      
-    - name: Run update-location.json if locations.json is updated
-      if: steps.check_locations.outputs.stdout == 'locations.json has changed'
-      run: python update-location.json  # Only run update-location.json if locations.json was changed
+    - name: Run update-location.json (unconditionally)
+      run: python update-location.json  # This will always run, regardless of changes
 
     - name: Commit merged files
       run: |
@@ -56,12 +48,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main  # Explicitly set your branch
-
-    - name: Deploy to GitHub Pages (only if necessary)
-      if: steps.check_locations.outputs.stdout == 'locations.json has changed' || steps.check_locations.outputs.stdout != 'locations.json has changed'
-      run: |
-        echo "Deploying to GitHub Pages"
-        # Insert the specific steps to deploy the project to GitHub Pages here.
-        # For example:
-        # npm run build  # or any relevant build command
-        # git push origin gh-pages
