@@ -21,10 +21,11 @@ const map = new Map({
         })
     ],
     view: new View({
-        center: fromLonLat([-98.5795, 39.8283]), // Centered on the US
+        center: fromLonLat([69.3451, 30.3753]), // Centered on Pakistan
         zoom: 4
     })
 });
+
 
 // Create vector source and layer for markers
 const vectorSource = new VectorSource();
