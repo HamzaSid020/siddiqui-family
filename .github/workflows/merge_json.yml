@@ -32,8 +32,8 @@ jobs:
     - name: Run merge script
       run: python mergeJson.py  # First, run mergeJson.py to update data-siddiqui-family.json and locations.json
 
-    - name: Run update-location.json (unconditionally)
-      run: python update-location.json  # This will always run, regardless of changes
+    - name: Run update-location.py
+      run: python update-location.py  # This will always run, regardless of changes
 
     - name: Commit merged files
       run: |
