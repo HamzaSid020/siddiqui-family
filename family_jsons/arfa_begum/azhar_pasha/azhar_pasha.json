@@ -1,0 +1,109 @@
+[
+    {
+      "id": "azhar-pasha-1",
+      "data": {
+        "gender": "M",
+        "first name": "Azhar",
+        "last name": "Qudrat Pasha",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "ameer-pasha-1",
+        "mother": "arifa-begum-1",
+        "spouses": ["sumaira-azhar-1"]
+      }
+    },
+    {
+      "id": "sumaira-azhar-1",
+      "data": {
+        "gender": "F",
+        "first name": "Sumaira",
+        "last name": "Azhar",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["azhar-pasha-1"],
+        "children": [
+          "daughter-azhar-1",
+          "daughter-azhar-2",
+          "daughter-azhar-3",
+          "daughter-azhar-4"
+        ]
+      }
+    },
+    {
+      "id": "daughter-azhar-1",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Azhar",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "azhar-pasha-1",
+        "mother": "sumaira-azhar-1"
+      }
+    },
+    {
+      "id": "daughter-azhar-2",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Azhar",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "azhar-pasha-1",
+        "mother": "sumaira-azhar-1"
+      }
+    },
+    {
+      "id": "daughter-azhar-3",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Azhar",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "azhar-pasha-1",
+        "mother": "sumaira-azhar-1"
+      }
+    },
+    {
+      "id": "daughter-azhar-4",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Azhar",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "azhar-pasha-1",
+        "mother": "sumaira-azhar-1"
+      }
+    }
+  ]
+  

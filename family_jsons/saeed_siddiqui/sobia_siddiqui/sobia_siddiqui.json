@@ -1,0 +1,31 @@
+[
+    {
+      "id": "baray-mamoo-sobia-1",
+      "data": {
+        "gender": "M",
+        "first name": "Baraay",
+        "last name": "Mamoo",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": ["sobia-siddiqui-1"],
+        "children": []
+      }
+    },
+    {
+      "id": "sobia-siddiqui-1",
+      "data": {
+        "gender": "F",
+        "first name": "Sobia",
+        "last name": "Siddiqui",
+        "birthday": "",
+        "avatar": ""
+      },
+      "rels": {
+        "father": "saeed-siddiqui-1",
+        "mother": "sabra-saeed-1",
+        "spouses": ["baray-mamoo-sobia-1"]
+      }
+    }
+  ]

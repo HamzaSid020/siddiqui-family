@@ -1,0 +1,45 @@
+[
+    {
+        "id": "saima-moin-1",
+        "data": {
+          "gender": "F",
+          "first name": "Saima",
+          "last name": "Moin",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "father": "ammar-ashqa-1",
+          "mother": "ashqa-anwar-1",
+          "spouses": ["moin-saima-1"]
+        }
+      },
+      {
+        "id": "moin-saima-1",
+        "data": {
+          "gender": "M",
+          "first name": "Moin",
+          "last name": "",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "spouses": ["saima-moin-1"],
+          "children": ["maaz-moin-1"]
+        }
+      },
+      {
+        "id": "maaz-moin-1",
+        "data": {
+          "gender": "M",
+          "first name": "Maaz",
+          "last name": "Moin",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "father": "moin-saima-1",
+          "mother": "saima-moin-1"
+        }
+      }
+]

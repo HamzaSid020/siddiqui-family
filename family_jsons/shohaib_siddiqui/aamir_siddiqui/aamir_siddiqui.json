@@ -1,0 +1,31 @@
+[
+  {
+    "id": "aamir-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Aamir ",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": "https://i.imgur.com/gWpwjes.jpg"
+    },
+    "rels": {
+      "father": "shohaib-siddiqui-1",
+      "mother": "nafis-un-nisa-1",
+      "spouses": ["shabana-aamir-1"]
+    }
+  },
+  {
+    "id": "shabana-aamir-1",
+    "data": {
+      "gender": "F",
+      "first name": "Shabana",
+      "last name": "Aamir",
+      "birthday": "",
+      "avatar": "https://i.imgur.com/oN6bXNE.png"
+    },
+    "rels": {
+      "spouses": ["aamir-siddiqui-1"],
+      "children": ["areeb-siddiqui-1", "ateeb-siddiqui-1", "rimsha-obaid-1"]
+    }
+  }
+]

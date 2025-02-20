@@ -1,0 +1,59 @@
+[
+  {
+    "id": "aftab-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Aftab",
+      "last name": "Ahmed Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "rasheed-siddiqui-1",
+      "mother": "sarwar-rasheed--1",
+      "spouses": ["charlen-aftab-1"]
+    }
+  },
+  {
+    "id": "charlen-aftab-1",
+    "data": {
+      "gender": "F",
+      "first name": "Charlen",
+      "last name": "Aftab",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["aftab-siddiqui-1"],
+      "children": ["kenzie-bost-siddiqui-1", "kelly-bost-siddiqui-1"]
+    }
+  },
+  {
+    "id": "kenzie-bost-siddiqui-1",
+    "data": {
+      "gender": "F",
+      "first name": "Kenzie",
+      "last name": "Bost Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "aftab-siddiqui-1",
+      "mother": "charlen-aftab-1"
+    }
+  },
+  {
+    "id": "kelly-bost-siddiqui-1",
+    "data": {
+      "gender": "F",
+      "first name": "Kelly",
+      "last name": "Bost Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "aftab-siddiqui-1",
+      "mother": "charlen-aftab-1"
+    }
+  }
+]

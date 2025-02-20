@@ -1,0 +1,59 @@
+[
+    {
+        "id": "sameen-taha-1",
+        "data": {
+          "gender": "F",
+          "first name": "Sameen",
+          "last name": "Taha",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "mother": "uzma-tabbasum-1",
+          "father": "azmat-uzma-1",
+          "spouses": ["taha-sameen-1"]
+        }
+      },
+      {
+        "id": "taha-sameen-1",
+        "data": {
+          "gender": "M",
+          "first name": "Taha",
+          "last name": "",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "spouses": ["sameen-taha-1"],
+          "children": ["zaidan-taha-1", "sara-taha-1"]
+        }
+      },
+      {
+        "id": "zaidan-taha-1",
+        "data": {
+          "gender": "M",
+          "first name": "Zaidan",
+          "last name": "",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "mother": "sameen-taha-1",
+          "father": "taha-sameen-1"
+        }
+      },
+      {
+        "id": "sara-taha-1",
+        "data": {
+          "gender": "F",
+          "first name": "Sara",
+          "last name": "",
+          "birthday": "",
+          "avatar": ""
+        },
+        "rels": {
+          "mother": "sameen-taha-1",
+          "father": "taha-sameen-1"
+        }
+      }
+]

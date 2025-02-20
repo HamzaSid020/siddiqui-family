@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddiqui Family Tree</title>
+
+  <!-- External Libraries -->
+  <script src="https://unpkg.com/d3@6"></script>
+  <script type="module" src="https://unpkg.com/family-chart@0.2.1"></script>
+  <link rel="stylesheet" href="https://unpkg.com/family-chart@0.2.1/dist/styles/family-chart.css">
+  <link rel="stylesheet" href="https://cdn.skypack.dev/ol/ol.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Aptos:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Heading for the Family Tree -->
+  <h1>Siddiqui Family Tree</h1>
+
+  <!-- Family Tree Container -->
+  <div id="FamilyChart" class="f3"></div>
+
+  <!-- Map Container -->
+  <div id="map">
+    <select id="mapTypeSelector">
+      <option value="osm">Open Street Map</option>
+      <option value="google">Google Satellite</option>
+    </select>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="map.js"></script>
+  <script type="module" src="index.js"></script>
+
+</body>
+
+</html>

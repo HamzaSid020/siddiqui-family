@@ -1,0 +1,98 @@
+[
+    {
+      "id": "abid-nayyer-1",
+      "data": {
+        "gender": "M",
+        "first name": "Abid",
+        "last name": "",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "spouses": ["nayyer-jabeen-1"]
+      }
+    },
+    {
+      "id": "nayyer-jabeen-1",
+      "data": {
+        "gender": "F",
+        "first name": "Nayyer",
+        "last name": "Jabeen",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "ameer-pasha-1",
+        "mother": "arifa-begum-1",
+        "spouses": ["abid-nayyer-1"],
+        "children": [
+          "daughter-abid-1",
+          "son-abid-1",
+          "son-abid-2"
+        ]
+      }
+    },
+    {
+      "id": "son-abid-1",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Abid",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    },
+    {
+      "id": "son-abid-2",
+      "data": {
+        "gender": "M",
+        "first name": "?",
+        "last name": "Abid",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    },
+    {
+      "id": "daughter-abid-1",
+      "data": {
+        "gender": "F",
+        "first name": "?",
+        "last name": "Abid",
+        "avatar": "",
+        "marriage date": "",
+        "occupation": "",
+        "location": "",
+        "birth year": "",
+        "death year": ""
+      },
+      "rels": {
+        "father": "abid-nayyer-1",
+        "mother": "nayyer-jabeen-1"
+      }
+    }
+  ]
+  
