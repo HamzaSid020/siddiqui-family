@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Fareed  Ahmed Siddiqui",
+        "area": "Lucknow, India",
+        "city": "",
+        "country": "",
+        "latitude": 26.8381,
+        "longitude": 80.9346001
+    },
+    {
+        "name": "Sajid Un Nisa",
+        "area": "Lucknow, India",
+        "city": "",
+        "country": "",
+        "latitude": 26.8381,
+        "longitude": 80.9346001
+    },
+    {
+        "name": "Asif  Ahmed Siddiqui",
+        "area": "Gulshan-e-Iqbal",
+        "city": "Karachi",
+        "country": "Pakistan",
+        "latitude": 24.9067294,
+        "longitude": 67.0986573
+    },
+    {
+        "name": "Erum Asif",
+        "area": "Gulshan-e-Iqbal",
+        "city": "Karachi",
+        "country": "Pakistan",
+        "latitude": 24.9067294,
+        "longitude": 67.0986573
+    },
+    {
+        "name": "Hamza Siddiqui",
+        "area": "Scarborough",
+        "city": "Toronto",
+        "country": "Canada",
+        "latitude": 43.7729744,
+        "longitude": -79.2576479
+    },
+    {
+        "name": "Tayyab Ahmed Siddiqui",
+        "area": "Denton",
+        "city": "Texas",
+        "country": "USA",
+        "latitude": 33.1838787,
+        "longitude": -97.1413417
+    },
+    {
+        "name": "Hira Hassan",
+        "area": "Airport Road",
+        "city": "Lahore",
+        "country": "Pakistan",
+        "latitude": 31.502301844475067,
+        "longitude": 74.42351515588277
+    },
+    {
+        "name": "M Hasaan Saeed",
+        "area": "Airport Road",
+        "city": "Lahore",
+        "country": "Pakistan",
+        "latitude": 31.502301844475067,
+        "longitude": 74.42351515588277
+    },
+    {
+        "name": "Samia Siddiqui",
+        "area": "PECHS",
+        "city": "Karachi",
+        "country": "Pakistan",
+        "latitude": 24.8684802,
+        "longitude": 67.05872422961852
+    },
+    {
+        "name": "Taha Ahmed Khan",
+        "area": "PECHS",
+        "city": "Karachi",
+        "country": "Pakistan",
+        "latitude": 24.8684802,
+        "longitude": 67.05872422961852
+    },
+    {
+        "name": "Amin Ahmed Khan",
+        "area": "PECHS",
+        "city": "Karachi",
+        "country": "Pakistan",
+        "latitude": 24.8684802,
+        "longitude": 67.05872422961852
+    }
+]
