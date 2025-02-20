@@ -1,0 +1,58 @@
+[
+  {
+    "id": "rimsha-obaid-1",
+    "data": {
+      "gender": "F",
+      "first name": "Rimsha",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "aamir-siddiqui-1",
+      "mother": "shabana-aamir-1",
+      "spouses": ["ali-rimsha-1", "muhammad-obaid-1"],
+      "children": ["hassan-1"]
+    }
+  },
+  {
+    "id": "muhammad-obaid-1",
+    "data": {
+      "gender": "M",
+      "first name": "Obaid",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["rimsha-obaid-1"]
+    }
+  },
+  {
+    "id": "ali-rimsha-1",
+    "data": {
+      "gender": "M",
+      "first name": "Ali",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["rimsha-obaid-1"]
+    }
+  },
+  {
+    "id": "hassan-1",
+    "data": {
+      "gender": "M",
+      "first name": "Hasan",
+      "last name": "Ali",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "rimsha-obaid-1",
+      "father": "ali-rimsha-1"
+    }
+  }
+]

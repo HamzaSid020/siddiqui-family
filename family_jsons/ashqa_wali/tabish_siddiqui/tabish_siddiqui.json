@@ -1,0 +1,45 @@
+[
+  {
+    "id": "tabish-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Tabish",
+      "last name": "Siddiqui",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "ammar-ashqa-1",
+      "mother": "ashqa-anwar-1",
+      "spouses": ["rozeena-tabish-1"]
+    }
+  },
+  {
+    "id": "rozeena-tabish-1",
+    "data": {
+      "gender": "F",
+      "first name": "Rozeena",
+      "last name": "Tabish",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["tabish-siddiqui-1"],
+      "children": ["anaya-tabish-1"]
+    }
+  },
+  {
+    "id": "anaya-tabish-1",
+    "data": {
+      "gender": "F",
+      "first name": "Anaya",
+      "last name": "Tabish",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "tabish-siddiqui-1",
+      "mother": "rozeena-tabish-1"
+    }
+  }
+]

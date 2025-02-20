@@ -1,0 +1,116 @@
+[
+  {
+    "id": "0",
+    "rels": {
+      "spouses": ["erum-asif-1"],
+      "father": "shohaib-siddiqui-1",
+      "mother": "nafis-un-nisa-1"
+    },
+    "data": {
+      "gender": "M",
+      "first name": "Asif ",
+      "last name": "Ahmed Siddiqui",
+      "avatar": "https://i.imgur.com/mrSsq8E.jpg",
+      "marriage date": "",
+      "occupation": "Well Intervention Coordinator",
+      "location": "Karachi, Pakistan",
+      "birth year": "1965",
+      "death year": ""
+    }
+  },
+  {
+    "id": "erum-asif-1",
+    "data": {
+      "gender": "F",
+      "first name": "Erum",
+      "last name": "Asif",
+      "avatar": "https://i.imgur.com/aVU0f64.jpg",
+      "marriage date": "",
+      "occupation": "Homemaker",
+      "location": "Karachi, Pakistan",
+      "birth year": "1972",
+      "death year": ""
+    },
+    "rels": {
+      "spouses": ["0"],
+      "children": [
+        "hamza-siddiqui-1",
+        "samia-taha-1",
+        "tayyab-siddiqui-1",
+        "hira-hasaan-1"
+      ]
+    }
+  },
+  {
+    "id": "hamza-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Hamza",
+      "last name": "Siddiqui",
+      "avatar": "https://i.imgur.com/J9NoivU.jpg",
+      "marriage date": "",
+      "occupation": "Robotic Engineer",
+      "location": "Toronto, Canada",
+      "birth year": "2000",
+      "death year": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-asif-1"
+    }
+  },
+  {
+    "id": "tayyab-siddiqui-1",
+    "data": {
+      "gender": "M",
+      "first name": "Tayyab",
+      "last name": "Ahmed Siddiqui",
+      "avatar": "https://i.imgur.com/O7MOhb5.jpg",
+      "marriage date": "",
+      "occupation": "",
+      "location": "Denton, Texas, USA",
+      "birth year": "2004",
+      "death year": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-asif-1"
+    }
+  },
+  {
+    "id": "hira-hasaan-1",
+    "data": {
+      "gender": "F",
+      "first name": "Hira",
+      "last name": "Hassan",
+      "avatar": "https://i.imgur.com/ZZ5nC8A.jpg",
+      "marriage date": "2023",
+      "occupation": "",
+      "location": "Lahore, Pakistan",
+      "birth year": "1998",
+      "death year": ""
+    },
+    "rels": {
+      "father": "0",
+      "mother": "erum-asif-1",
+      "spouses": ["hasaan-saeed-1"]
+    }
+  },
+  {
+    "id": "hasaan-saeed-1",
+    "data": {
+      "gender": "M",
+      "first name": "M Hasaan",
+      "last name": "Saeed",
+      "avatar": "",
+      "marriage date": "2023",
+      "occupation": "Software Engineer",
+      "location": "Lahore, Pakistan",
+      "birth year": "",
+      "death year": ""
+    },
+    "rels": {
+      "spouses": ["hira-hasaan-1"]
+    }
+  }
+]

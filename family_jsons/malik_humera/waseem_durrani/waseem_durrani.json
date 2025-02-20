@@ -1,0 +1,59 @@
+[
+  {
+    "id": "waseem-durrani-1",
+    "data": {
+      "gender": "M",
+      "first name": "Waseem",
+      "last name": "Durrani",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "inam-durrani-1",
+      "mother": "malka-humera-1",
+      "spouses": ["nighat-waseem-1"]
+    }
+  },
+  {
+    "id": "nighat-waseem-1",
+    "data": {
+      "gender": "F",
+      "first name": "Nighat",
+      "last name": "Waseem",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": ["waseem-durrani-1"],
+      "children": ["shehwaz-durrani-1", "umair-durrani-1"]
+    }
+  },
+  {
+    "id": "shehwaz-durrani-1",
+    "data": {
+      "gender": "M",
+      "first name": "Shewaz",
+      "last name": "Durrani",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "waseem-durrani-1",
+      "mother": "nighat-waseem-1"
+    }
+  },
+  {
+    "id": "umair-durrani-1",
+    "data": {
+      "gender": "M",
+      "first name": "Umair",
+      "last name": "Durrani",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "father": "waseem-durrani-1",
+      "mother": "nighat-waseem-1"
+    }
+  }
+]
