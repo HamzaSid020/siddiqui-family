@@ -21,7 +21,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.9325689,
-        "longitude": 67.07039202257809
+        "longitude": 67.070392
     },
     {
         "name": "Rabia Sharique",
@@ -29,7 +29,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.9325689,
-        "longitude": 67.07039202257809
+        "longitude": 67.070392
     },
     {
         "name": "Arhab Ahmed Siddiqui",
@@ -37,7 +37,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.9325689,
-        "longitude": 67.07039202257809
+        "longitude": 67.070392
     },
     {
         "name": "Jabira Siddiqui",
@@ -45,7 +45,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.9325689,
-        "longitude": 67.07039202257809
+        "longitude": 67.070392
     },
     {
         "name": "Pashmina Siddiqui",
@@ -53,7 +53,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.9325689,
-        "longitude": 67.07039202257809
+        "longitude": 67.070392
     },
     {
         "name": "Washma Siddiqui",
@@ -61,7 +61,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.9325689,
-        "longitude": 67.07039202257809
+        "longitude": 67.070392
     },
     {
         "name": "Asif  Ahmed Siddiqui",
@@ -100,16 +100,16 @@
         "area": "Airport Road",
         "city": "Lahore",
         "country": "Pakistan",
-        "latitude": 31.502301844475067,
-        "longitude": 74.42351515588277
+        "latitude": 31.5023018,
+        "longitude": 74.4235152
     },
     {
         "name": "M Hasaan Saeed",
         "area": "Airport Road",
         "city": "Lahore",
         "country": "Pakistan",
-        "latitude": 31.502301844475067,
-        "longitude": 74.42351515588277
+        "latitude": 31.5023018,
+        "longitude": 74.4235152
     },
     {
         "name": "Samia Siddiqui",
@@ -117,7 +117,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.8684802,
-        "longitude": 67.05872422961852
+        "longitude": 67.0587242
     },
     {
         "name": "Taha Ahmed Khan",
@@ -125,7 +125,7 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.8684802,
-        "longitude": 67.05872422961852
+        "longitude": 67.0587242
     },
     {
         "name": "Amin Ahmed Khan",
@@ -133,63 +133,63 @@
         "city": "Karachi",
         "country": "Pakistan",
         "latitude": 24.8684802,
-        "longitude": 67.05872422961852
+        "longitude": 67.0587242
     },
     {
         "name": "Farah Masroor",
         "area": "Monmouth Junction",
         "city": "New Jersey",
         "country": "USA",
-        "latitude": 40.384022200000004,
-        "longitude": -74.53308403231352
+        "latitude": 40.3840222,
+        "longitude": -74.533084
     },
     {
         "name": "Masroor Ali",
         "area": "Monmouth Junction",
         "city": "New Jersey",
         "country": "USA",
-        "latitude": 40.384022200000004,
-        "longitude": -74.53308403231352
+        "latitude": 40.3840222,
+        "longitude": -74.533084
     },
     {
         "name": "Ahsan Masroor",
         "area": "Monmouth Junction",
         "city": "New Jersey",
         "country": "USA",
-        "latitude": 40.384022200000004,
-        "longitude": -74.53308403231352
+        "latitude": 40.3840222,
+        "longitude": -74.533084
     },
     {
         "name": "Sana Ahsan",
         "area": "Monmouth Junction",
         "city": "New Jersey",
         "country": "USA",
-        "latitude": 40.384022200000004,
-        "longitude": -74.53308403231352
+        "latitude": 40.3840222,
+        "longitude": -74.533084
     },
     {
         "name": "Mohsin Masroor",
         "area": "Monmouth Junction",
         "city": "New Jersey",
         "country": "USA",
-        "latitude": 40.384022200000004,
-        "longitude": -74.53308403231352
+        "latitude": 40.3840222,
+        "longitude": -74.533084
     },
     {
         "name": "Safa Mohsin",
         "area": "Monmouth Junction",
         "city": "New Jersey",
         "country": "USA",
-        "latitude": 40.384022200000004,
-        "longitude": -74.53308403231352
+        "latitude": 40.3840222,
+        "longitude": -74.533084
     },
     {
         "name": "Noman Masroor",
         "area": "Monmouth Junction",
         "city": "New Jersey",
         "country": "USA",
-        "latitude": 40.384022200000004,
-        "longitude": -74.53308403231352
+        "latitude": 40.3840222,
+        "longitude": -74.533084
     },
     {
         "name": "Rizwan Ahmed Siddiqui",
@@ -244,96 +244,96 @@
         "area": "Whaley Way",
         "city": "Milton",
         "country": "Canada",
-        "latitude": 43.48301925,
-        "longitude": -79.87181365
+        "latitude": 43.4830192,
+        "longitude": -79.8718137
     },
     {
         "name": "Batool Arsalan",
         "area": "Whaley Way",
         "city": "Milton",
         "country": "Canada",
-        "latitude": 43.48301925,
-        "longitude": -79.87181365
+        "latitude": 43.4830192,
+        "longitude": -79.8718137
     },
     {
         "name": "Maryum Yazdan",
         "area": "Whaley Way",
         "city": "Milton",
         "country": "Canada",
-        "latitude": 43.48301925,
-        "longitude": -79.87181365
+        "latitude": 43.4830192,
+        "longitude": -79.8718137
     },
     {
         "name": "Zaina Yazdan",
         "area": "Whaley Way",
         "city": "Milton",
         "country": "Canada",
-        "latitude": 43.48301925,
-        "longitude": -79.87181365
+        "latitude": 43.4830192,
+        "longitude": -79.8718137
     },
     {
         "name": "Zara Yazdan",
         "area": "Whaley Way",
         "city": "Milton",
         "country": "Canada",
-        "latitude": 43.48301925,
-        "longitude": -79.87181365
+        "latitude": 43.4830192,
+        "longitude": -79.8718137
     },
     {
         "name": "Madiha Talha",
         "area": "Wheat Lane",
         "city": "Kitchener",
         "country": "Canada",
-        "latitude": 43.37969846007081,
-        "longitude": -80.48210359312476
+        "latitude": 43.3796985,
+        "longitude": -80.4821036
     },
     {
         "name": "Talha Siddiqui",
         "area": "Wheat Lane",
         "city": "Kitchener",
         "country": "Canada",
-        "latitude": 43.37969846007081,
-        "longitude": -80.48210359312476
+        "latitude": 43.3796985,
+        "longitude": -80.4821036
     },
     {
         "name": "Emaan Talha",
         "area": "Wheat Lane",
         "city": "Kitchener",
         "country": "Canada",
-        "latitude": 43.37969846007081,
-        "longitude": -80.48210359312476
+        "latitude": 43.3796985,
+        "longitude": -80.4821036
     },
     {
         "name": "Pakeeza Fakhir",
         "area": "Whitehorn Ave",
         "city": "Mississauga",
         "country": "Canada",
-        "latitude": 43.59462930581345,
-        "longitude": -79.70238093797111
+        "latitude": 43.5946293,
+        "longitude": -79.7023809
     },
     {
         "name": "Mir Fakhir Ali",
         "area": "Whitehorn Ave",
         "city": "Mississauga",
         "country": "Canada",
-        "latitude": 43.59462930581345,
-        "longitude": -79.70238093797111
+        "latitude": 43.5946293,
+        "longitude": -79.7023809
     },
     {
         "name": "Mir Taha Ali",
         "area": "Whitehorn Ave",
         "city": "Mississauga",
         "country": "Canada",
-        "latitude": 43.59462930581345,
-        "longitude": -79.70238093797111
+        "latitude": 43.5946293,
+        "longitude": -79.7023809
     },
     {
         "name": "Fatima Fakhir",
         "area": "Whitehorn Ave",
         "city": "Mississauga",
         "country": "Canada",
-        "latitude": 43.59462930581345,
-        "longitude": -79.70238093797111
+        "latitude": 43.5946293,
+        "longitude": -79.7023809
     },
     {
         "name": "Khalid Ahmed Siddiqui",
