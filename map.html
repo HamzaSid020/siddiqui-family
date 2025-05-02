@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive Siddiqui Family Tree with geographical mapping">
+  <meta name="theme-color" content="#ffffff">
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://cdn.skypack.dev/ol/ol.css" as="style">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <!-- External Libraries -->
+  <link rel="stylesheet" href="https://cdn.skypack.dev/ol/ol.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- Google Fonts - Optimized loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aptos:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Siddiqui Family Tree - Map View</title>
+</head>
+
+<body>
+  <!-- Side Menu -->
+  <div class="side-menu">
+    <div class="menu-toggle">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+    <div class="menu-content">
+      <a href="index.html" class="menu-item">
+        <i class="fas fa-tree"></i>
+        <span>Family Tree</span>
+      </a>
+      <a href="map.html" class="menu-item active">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Map View</span>
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fas fa-users"></i>
+        <span>Family Members</span>
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fas fa-history"></i>
+        <span>Family History</span>
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fas fa-cog"></i>
+        <span>Settings</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Heading for the Map -->
+  <h1>Siddiqui Family Tree - Map View</h1>
+
+  <!-- Map Container -->
+  <div id="map">
+    <select id="mapTypeSelector">
+      <option value="osm">Open Street Map</option>
+      <option value="google">Google Satellite</option>
+    </select>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="map.js" defer></script>
+  <script>
+    // Side menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuToggle = document.querySelector('.menu-toggle');
+      const sideMenu = document.querySelector('.side-menu');
+      const body = document.body;
+      const menuIcon = menuToggle.querySelector('i');
+
+      menuToggle.addEventListener('click', function() {
+        sideMenu.classList.toggle('collapsed');
+        body.classList.toggle('sidebar-collapsed');
+        menuIcon.classList.toggle('fa-chevron-left');
+        menuIcon.classList.toggle('fa-chevron-right');
+      });
+    });
+  </script>
+</body>
+
+</html> 

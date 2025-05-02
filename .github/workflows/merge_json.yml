@@ -8,8 +8,6 @@ on:
       - main  # Trigger on changes to the main branch
     paths:
       - '**/*.json'  # Trigger if any JSON files are changed
-    authors:
-      - 'hamzasid020'  # Trigger if changes are made by 'hamzasid020'
   workflow_dispatch:  # Allow manual triggers
 
 jobs:
@@ -17,20 +15,30 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
+        cache: 'pip'
     
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install jsonmerge requests
-    
+        pip install jsonmerge requests retry
+
+    - name: Create backup
+      run: |
+        cp data-siddiqui-family.json data-siddiqui-family.json.backup || true
+        cp locations.json locations.json.backup || true
+
     - name: Run merge script
       run: python mergeJson.py  # First, run mergeJson.py to update data-siddiqui-family.json and locations.json
+
+    - name: Validate JSON
+      run: |
+        python -c "import json; json.load(open('data-siddiqui-family.json')); json.load(open('locations.json'))"
 
     - name: Run update-location.py
       run: python update-location.py  # This will always run, regardless of changes
