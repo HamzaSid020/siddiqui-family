@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive Siddiqui Family Tree with geographical mapping">
+  <meta name="theme-color" content="#ffffff">
+  
+  <!-- D3.js Library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://balkangraph.com/js/OrgChart.js"></script>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aptos:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Siddiqui Family Tree</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    #tree-container {
+      width: 100%;
+      height: calc(100vh - 40px);
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .node {
+      cursor: pointer;
+    }
+
+    .node-card {
+      fill: white;
+      stroke: #ccc;
+      rx: 5;
+      ry: 5;
+    }
+
+    .node-card.male {
+      fill: #E3F2FD;
+      stroke: #90CAF9;
+    }
+
+    .node-card.female {
+      fill: #FCE4EC;
+      stroke: #F48FB1;
+    }
+
+    .link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 1px;
+    }
+
+    .node-name {
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    .node-details {
+      font-size: 10px;
+      fill: #666;
+    }
+
+    .controls {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      gap: 10px;
+      background: white;
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .controls button {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+      background: #2196F3;
+      color: white;
+      cursor: pointer;
+    }
+
+    .controls button:hover {
+      background: #1976D2;
+    }
+
+    .spouse-link {
+      stroke: #999;
+      stroke-dasharray: 3,3;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Side Menu -->
+  <div class="side-menu">
+    <div class="menu-toggle">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+    <div class="menu-content">
+      <a href="index.html" class="menu-item active">
+        <i class="fas fa-tree"></i>
+        <span>Family Tree</span>
+      </a>
+      <a href="map.html" class="menu-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Map View</span>
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fas fa-users"></i>
+        <span>Family Members</span>
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fas fa-history"></i>
+        <span>Family History</span>
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fas fa-cog"></i>
+        <span>Settings</span>
+      </a>
+    </div>
+  </div>
+
+  <main class="content">
+    <h1>Siddiqui Family Tree</h1>
+    
+    <!-- Tree Container -->
+    <div id="tree-container"></div>
+  </main>
+
+  <div class="controls">
+    <button onclick="zoomIn()">Zoom In</button>
+    <button onclick="zoomOut()">Zoom Out</button>
+    <button onclick="resetView()">Reset</button>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // Wait for DOM and D3.js to be fully loaded
+    window.addEventListener('load', function() {
+      if (typeof d3 !== 'undefined') {
+        createFamilyTree();
+        
+        // Side menu toggle functionality
+        const menuToggle = document.querySelector('.menu-toggle');
+        const sideMenu = document.querySelector('.side-menu');
+        const body = document.body;
+        const menuIcon = menuToggle.querySelector('i');
+
+        menuToggle.addEventListener('click', function() {
+          sideMenu.classList.toggle('collapsed');
+          body.classList.toggle('sidebar-collapsed');
+          menuIcon.classList.toggle('fa-chevron-left');
+          menuIcon.classList.toggle('fa-chevron-right');
+        });
+      } else {
+        console.error('D3.js not loaded properly');
+      }
+    });
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
